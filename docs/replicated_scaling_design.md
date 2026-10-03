@@ -1,0 +1,9 @@
+# After E12: bounded replicated size benchmark
+
+The one-seed resource profile is a viability gate. If 5K completes with safe measured headroom and exact fingerprints, next repeat the isolated-worker comparison on fresh seeds 61–65 at 2K and 5K vertices, BA/ER/WS, 1% initial noise and three shared-latent 0.1% updates. Preserve E12's matrix lifecycle, kernels, stage/setup scope and fingerprint checks; no warm solver, parameter tuning, 10K or longer streams yet.
+
+Five independent seed bundles per topology/size provide paired observations. Alternate which method's isolated worker runs first across seeds/conditions rather than always starting full recomputation first. Run workers sequentially and preflight applicable cgroup ancestor/headroom limits per size. Record every worker's whole-process peak RSS, method-specific setup and three-update stage totals. Paired fingerprint equality must hold after setup and each update.
+
+Report median/IQR/ranges of feature-stage, cost-stage, update-only, setup-inclusive and persistent/full RSS ratios. Sum correlated steps within each worker before pairing. Component gains count positively even if overall timing differences are small or peak RSS rises; keep memory regressions explicit. Do not pool topologies or count three batches as independent repetitions. Avoid post-hoc selective reporting of only favorable seeds or conditions.
+
+This isolates whether E12's observed size tradeoffs survive seed variability. It does not establish a long stream, broad noise/update robustness, 10K scalability, correspondence-quality benefit, verified literature novelty or CPU parallelism. Retain E11's weak WS initial quality and scope claims to exact descriptor-objective maintenance. If paired total gains are near timing variability, credit measured component progress and identify solver dominance rather than claiming a robust whole-pipeline win.

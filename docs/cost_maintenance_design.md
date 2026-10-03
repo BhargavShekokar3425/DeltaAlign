@@ -1,0 +1,15 @@
+# E10 design: exact persistent cost maintenance
+
+E09 identifies a component bottleneck: at requested 1% batches, selective descriptor maintenance remains about 1.7× faster, but the inherited cost refresh stage is about twice as slow as full cost construction. This stage improvement/regression matters independently of overall latency. The compiled selective stream still has a small total advantage, while the warm kernel is substantially slower. See [E09 findings](e09_findings.md).
+
+The historical `src/candidates.py` refresh copies the complete cost matrix, recomputes all changed rows, then all changed columns including their intersections. It also repeatedly scales full feature arrays. Leave this kernel frozen and add a new persistent cost-cache implementation with separately cached normalized source/target features.
+
+At each update, normalize only actually changed feature rows using the frozen initial scale. Recompute changed source rows against all normalized targets. Recompute changed target columns against unchanged source rows only, so row/column intersections are calculated once. Mutate the maintained dense cost matrix in place where safe. This is intended for persistent compiled assignment; no warm-dual state transition is implied. Count normalization, indexing, block writes and all required copies in cost time; do not claim reduced peak memory without measuring it. Record the extra normalized-feature cache arrays and initialization.
+
+Validate exact normalized-feature and full cost equality against full `cdist` after every step. Tests must include source-only, target-only, mixed, all/no changes, ties, row/column overlap and repeated updates. Preserve mapping equality with compiled full assignment and full-oracle feature equality. If blockwise calculation fails bitwise equality, investigate before accepting a numerical-tolerance relaxation.
+
+Use fresh seeds 50–54 under E09's frozen ten-step BA conditions, both protocols/noise levels and 0.1%/1% batches. Compare the new selective-features + persistent-cost + SciPy pipeline, the unchanged selective-features + historical cost-refresh + SciPy pipeline, full recomputation + SciPy and keep-initial. Pair stream-level cost-stage, update-only and initialization-inclusive totals; include each method's real initialization. Component improvements count positively even when total latency changes little. Do not tune thresholds or introduce a full-recompute selector in this stage.
+
+Record quality controls and observation-mask drift. E09's independent 1% streams reach only about 17–20% mean NC after ten steps despite exact objective maintenance, while the hidden correspondence stays fixed. This limits a correspondence-recovery claim; an exact faster cache cannot repair objective/protocol fitness. Preserve this failure in reports.
+
+After this focused component experiment, apply the [topology robustness gate](topology_robustness_design.md). Literature novelty, larger-size/peak-RSS profiling, longer streams and certified CPU parallel decomposition remain separate requirements. Avoid presenting routine caching/block reuse as new assignment theory.

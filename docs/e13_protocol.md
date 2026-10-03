@@ -1,0 +1,7 @@
+# E13: bounded replicated scaling
+
+Execute the frozen [replication design](replicated_scaling_design.md): seeds 61–65, 2K/5K nodes, BA/ER/WS, 1% initial noise, three shared-latent 0.1% updates. Thirty independent paired size/topology/seed bundles require 60 sequential fresh workers and 120 paired setup/update fingerprint checks. E12 numerical operations and matrix lifecycle are preserved; E13 adds explicit seed selection and alternates worker order by size/family/seed parity (15 pairs per first method).
+
+Preflight visible memory/cgroup ancestors per size. Actual initialization is included in total latency. Whole-worker peak RSS includes imports, generation, validation and quality; timed stages exclude generation/validation. Aggregate three correlated steps within each worker before computing paired ratios. Report all five seed ratios with median, quartiles and range separately for feature, cost, solver, update, total and persistent/full RSS. No topology pooling, discarded unfavorable seeds, tuning or 10K expansion.
+
+Exact features, normalized features, costs, scale, mapping and objectives must agree after setup and every update. Quality diagnostics remain controls because mappings coincide. Seed variability is not repeated timing uncertainty: small total differences cannot establish a robust timing win without repeated execution. Component improvements count as positive progress while memory and objective-quality limitations remain explicit.

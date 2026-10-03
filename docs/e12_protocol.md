@@ -1,0 +1,9 @@
+# E12: isolated resource and size profile
+
+The pre-existing [resource design](resource_scaling_design.md) fixes seed 60, BA/ER/WS, sizes 1K/2K/5K, 1% noise and three shared-latent 0.1% batches. E10 kernels remain frozen. Each method runs in a fresh sequential subprocess; full recomputation releases unnecessary previous costs after fingerprinting, while maintained costs persist. Parent retains small JSON records only.
+
+Measure Linux whole-worker peak RSS via `getrusage`, including imports, generation, setup, updates, fingerprints and quality evaluation. Stage/setup timers exclude generation and validation. Hash contiguous buffers directly rather than allocating another dense copy; normalized validation arrays are feature-sized. Verify identical features, normalized features, scales, costs and mappings across methods after setup and every step. Existing bitwise tests remain the primary kernel correctness checks.
+
+Preflight each size using available memory, visible cgroup v2 session/ancestor limits, applicable visible v1 root limits and address-space soft limit. Estimate four dense matrices plus 256 MiB overhead; require at least twice this estimate in available headroom. A partial preliminary run was stopped to add session/ancestor cgroup inspection, then the final complete profile restarted with the corrected preflight. No preliminary measurements enter final comparisons. Hidden/inaccessible constraints cannot be inferred from visible limits.
+
+One seed and one timed run per condition provide a viability profile, not replicated speedup evidence or confidence intervals. Record stage, setup-inclusive and RSS ratios separately. Component gains count as progress even if total performance or memory regresses. All arrays remain dense/quadratic. Preserve E11's weak WS/high-noise quality limits; no correspondence recovery, novelty or CPU decomposition claim follows from these measurements.

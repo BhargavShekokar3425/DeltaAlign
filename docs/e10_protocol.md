@@ -1,0 +1,9 @@
+# E10: persistent normalized cost cache
+
+Pre-run protocol: fresh seeds 50–54, frozen E09 ten-step 1K BA streams, both initial noise levels, both protocols and requested 0.1%/1% batches. Compare new persistent-cost + selective-features + SciPy, historical-refresh + selective-features + SciPy, full recomputation + SciPy and keep-initial. No warm assignment or tuned fallback in this stage.
+
+Cache normalized feature arrays under the frozen initial scale. Update only dirty normalized rows, refresh changed source rows against every target, then changed target columns against unchanged source rows. Update owned dense costs in place. Count scaling/indexing/block writes and necessary temporaries within cost time. Log unique cells computed and additional normalized array storage. Each method pays actual required initialization. Dense storage remains quadratic; array bytes are not peak RSS.
+
+Every step requires bitwise normalized-feature/full-feature/full-cost equality and identical SciPy mappings. Complete dirty sets are supplied by the unchanged exact descriptor cache. Full recomputation runs first, and selective method order alternates. Sum stages/latency within each stream before paired median/IQR/ranges across five seeds; batches are correlated. Edge application, generation, validation and quality evaluation are excluded from pipeline timing and recorded separately where applicable, as in E09.
+
+Accept component gains as positive progress even if solver latency limits overall gains. Compare cost-stage, update-only and setup-inclusive totals against both historical refresh and full recomputation. Preserve correspondence-quality and mask-drift controls; faster exact costs cannot fix the underlying objective's identity-quality failures. No novelty, peak-memory or scaling claim from routine caching/block reuse. After this measured component gate, test topology robustness.

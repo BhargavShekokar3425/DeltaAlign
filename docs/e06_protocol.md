@@ -1,0 +1,21 @@
+# E06 dynamic-assignment reference
+
+## Provenance and compatibility
+
+Verified original source: G. Ayorkor Mills-Tettey, Anthony Stentz, M. Bernardine Dias, CMU-RI-TR-07-27 (July 2007), [technical report](https://www.cs.cmu.edu/~gertrude/dyn_assign_techreport.pdf) and [CMU publication record](https://publications.ri.cmu.edu/the-dynamic-hungarian-algorithm-for-the-assignment-problem-with-changing-costs). Figure 5 and the following batch extension reuse optimal matching/duals after changed rows/columns, restoring feasibility and augmenting exposed matches. The stated O(k n²) bound concerns changed cost rows/columns and solver work, not graph edits or end-to-end graph processing. No authors' implementation is linked in the inspected publication record; use an explicitly labeled original reference implementation, not an attributed authors' executable.
+
+`src/dynamic_assignment.py` implements that primal-dual construction with deterministic single-root shortest-slack stages rather than growing all exposed-root trees simultaneously. For simultaneous changes, reset columns against unchanged row potentials, then reset changed rows. Unmatch incident pairs, retain feasible unchanged matches, and augment. This is an implementation variation of existing assignment repair, not DeltaAlign novelty. Validate dual feasibility, matched-edge tightness, and primal/dual equality. Tests compare exhaustive small permutations and SciPy, including signed/tied costs, both-sided changes, all/no changes, and repeated updates.
+
+## Frozen graph experiment
+
+Fresh seeds 30–34, 1K BA attachment 3, 1%/5% initial noise, corrected frozen descriptor normalization, paired latent/independent protocols, matched source/target budgets, four existing fractions. A custom cold solve supplies the initial primal/dual state. Verify its objective against SciPy and record mapping agreement/NC: initial ties may select different mappings than earlier experiments. Keep-old and every update method share this initial mapping. No candidate margins or policy settings are tuned.
+
+Compare dynamic reference, the same custom Hungarian kernel run cold, compiled SciPy full solve, and keep-old. All optimize/evaluate the same dense updated cost matrix. Full fidelity is objective equality; exact mapping differences under ties are reported separately. The graph objective still does not prove better NC/S3, as E05 demonstrated.
+
+Measure two actual pipelines from already updated graphs to assignment: full recomputation recalculates descriptors, all costs, and SciPy solve; dynamic recalculates full descriptors as an explicit oracle, detects changed descriptor rows/columns, selectively refreshes dense cached costs, clones reset state, and repairs. Include cache/state copies and dirty detection in dynamic totals; log cloning separately. Graph-pair generation, batch application, certificates, and oracle cross-checks are outside both timing windows. This is a reference pipeline benchmark, not production end-to-end streaming latency or a DeltaAlign speedup claim. Report same-kernel cold/warm solver ratios separately from compiled SciPy comparisons. Initial state/dual construction is a separate one-time cost.
+
+Log actual changed descriptor rows/columns, rescored cost entries, exposed pairs, augmentations, tree steps, visited assignment rows/columns, solver times, pipeline totals, J gap, FRA, NC/S3, churn, and dual certificate errors. Certificate scans cover the dense matrix and are timed separately. Reset every trial; no long-stream performance claim. Five seed bundles are independent; noise/protocol conditions are paired.
+
+## Decision and paper progress
+
+Determine whether exact assignment reuse beats the current compiled full reference at these costs/sizes. A Python-vs-compiled gap is not evidence that the published method is ineffective; the same-kernel comparison isolates reuse. Inspect searched assignment regions versus unconditional candidate closure to inform an assignment-aware localization design. Verify novelty before claiming graph-specific improvements. Retain keep-old and stated-objective/true-identity distinctions. Report whether this removes a baseline gap for the paper, and which algorithm, efficiency, robustness, or novelty evidence remains missing.
