@@ -1,0 +1,1 @@
+"""DeltaAlign diagnostic baseline."""
