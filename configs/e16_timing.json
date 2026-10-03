@@ -1,0 +1,26 @@
+{
+  "seeds": [
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "sizes": [
+    5000
+  ],
+  "families": [
+    "ba",
+    "ws"
+  ],
+  "noise": 0.01,
+  "requested_fraction": 0.001,
+  "steps": 3,
+  "rounds": 3,
+  "methods": [
+    "full_scipy",
+    "persistent_scipy"
+  ],
+  "status": "preregistered_not_run",
+  "fixed_job_source": "configs/e13_scaling.json"
+}

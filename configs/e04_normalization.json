@@ -1,0 +1,10 @@
+{
+  "nodes": 1000, "attachment": 3, "noise": 0.01, "descriptor_mode": "two_hop_hist",
+  "replay_seeds": [15, 16, 17, 18, 19], "fresh_seeds": [20, 21, 22, 23, 24],
+  "update_fractions": [0.0001, 0.001, 0.01, 0.05], "update_sides": ["source", "target", "both"],
+  "selection_path": "results/aggregate/e02_selection.json",
+  "controls": ["selected_pruned", "selected_dense", "unpruned_k5", "unpruned_region_dense", "local2", "keep_old", "full"],
+  "review_guides": {"sparse_fractions": [0.0001, 0.001], "mean_rf": 0.2,
+    "mean_fra": 0.99, "mean_nc_loss": 0.005, "mean_s3_loss": 0.005, "mean_relative_gap": 0.01},
+  "normalization": {"constant_tolerance": 1e-12, "constant_scale": 1.0, "mode": "unit_constant"}
+}

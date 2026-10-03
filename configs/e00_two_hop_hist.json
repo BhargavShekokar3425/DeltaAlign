@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    1000
+  ],
+  "attachment": 3,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "noise": 0.01,
+  "update_fractions": [
+    0.0001,
+    0.001,
+    0.01,
+    0.05
+  ],
+  "radii": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "descriptor_mode": "two_hop_hist"
+}

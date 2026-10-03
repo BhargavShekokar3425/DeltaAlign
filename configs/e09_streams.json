@@ -1,0 +1,1 @@
+{"nodes":1000,"attachment":3,"descriptor_mode":"two_hop_hist","seeds":[45,46,47,48,49],"noise_levels":[0.01,0.05],"update_fractions":[0.001,0.01],"protocols":["shared_latent","independent"],"steps":10,"certificate_tolerance":1e-8}

@@ -1,0 +1,1 @@
+{"seed":60,"sizes":[1000,2000,5000],"families":["ba","er","ws"],"noise":0.01,"requested_fraction":0.001,"steps":3,"methods":["full_scipy","persistent_scipy"]}

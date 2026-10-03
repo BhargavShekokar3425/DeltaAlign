@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "sizes": [
+    2000,
+    5000
+  ],
+  "families": [
+    "ba",
+    "er",
+    "ws"
+  ],
+  "noise": 0.01,
+  "requested_fraction": 0.001,
+  "steps": 3,
+  "methods": [
+    "full_scipy",
+    "persistent_scipy"
+  ]
+}

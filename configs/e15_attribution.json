@@ -1,0 +1,31 @@
+{
+  "seeds": [
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "sizes": [
+    1000
+  ],
+  "families": [
+    "ba",
+    "er",
+    "ws"
+  ],
+  "noise": 0.01,
+  "requested_fractions": [
+    0.001,
+    0.01
+  ],
+  "steps": 10,
+  "protocol": "shared_latent",
+  "methods": [
+    "full_scipy",
+    "persistent_scipy",
+    "conservative_features",
+    "conservative_costs"
+  ],
+  "status": "preregistered_not_run"
+}
