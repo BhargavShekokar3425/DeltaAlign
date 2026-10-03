@@ -1,0 +1,124 @@
+{
+  "config": {
+    "seed": 60,
+    "sizes": [
+      1000,
+      2000,
+      5000
+    ],
+    "families": [
+      "ba",
+      "er",
+      "ws"
+    ],
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "steps": 3,
+    "methods": [
+      "full_scipy",
+      "persistent_scipy"
+    ]
+  },
+  "config_hash": "20df0cf5c012474ba0e532b1ab2a71c121de809976876d5705bd99ef9f79551a",
+  "source_hashes": {
+    "src/__init__.py": "950fcac7cefa131aa4a75ef7c3642abc5f1a1dcef0151531a3974c5588b275eb",
+    "src/candidate_pruning.py": "899cfde357e9511a684a76d7db32c59ae7a7d32dbbcdbe54938a79c58702face",
+    "src/candidates.py": "d2b0d06c7fec584f3d4b0029f3750621c0d5c0ebda5927986387ebf23dc5f8ac",
+    "src/conflict_closure.py": "77ed28d3142d1e10e32f5b1e2e309e5c78cf95c5a35e55641241f44f6b8f8fe7",
+    "src/cost_cache.py": "ff250e8bc83c848774dd74b2cdf62fe4de653312090bc55f86c3937c0adfd8ad",
+    "src/descriptor_cache.py": "26b126b5585bfb248902cc4b2b231b7f5b93d4788ca366b15c0c448afec6d174",
+    "src/descriptors.py": "f0cdf77a733efb5b32edd1be6fcf70b1779b98a153be9644dbcbf43441a3f6a0",
+    "src/dynamic_assignment.py": "ccda8ac1c82adc1a2c952c085252ce3ff06d541c5edb9427ce08fcdb038ee797",
+    "src/full_align.py": "30018fd28f08fef4b72576e02c4ff6e53e8e4d94a92e89514fff2d0a2b9dde0c",
+    "src/graph.py": "4f2b5c3e60624bbe20758ba0a95de6ba6af0c45ce9a052965d426fa406d9c8c1",
+    "src/local_assignment.py": "c21b7b096df824499ad6a66977f084e24ad482251d4710a48dc3c2d25b7f17b6",
+    "src/metrics.py": "7c92bdd1df97349299125e2f9a46b9ee4a8ff357bb9dd21d334a848a9dbbb2ca",
+    "src/normalization.py": "bb21745fcc40c3d022389f5699bff186200577d6ad491be69d5ff55e6c5d341e",
+    "src/normalized_align.py": "06291b02021468446f8b67d733ee1c0da99c51783c3f74e5375d3ff02e2db34f",
+    "src/repair_metrics.py": "98536dad8978e12dd18a00d13fd171b2dd9e1aa36184d219da8d425092424d1e",
+    "src/topology_pairs.py": "93c2bc97a5c372342530dec39369d60f94d8aba420e7df85eded4d3a835a1d50",
+    "src/update_protocols.py": "b27ce889d0c9d6c3a1a3390f8e26129f51260e6198d02943cb361a7b8b5d9896",
+    "src/updates.py": "9f52c7af6d9a6f735a27dc8acd4be202e2db81a5a12938ba8541bc2c00838f17",
+    "/home/akanksha/Bhargav/DeltaAlign/experiments/e12_resources.py": "06fe3cede643c88875c989cd43292ce86c1a883a18f704fac2caa876eef0e2cd",
+    "experiments/e10_costs.py": "e6f2e61ef4413d008669a2f32c6d2f10dd1108827f3aed35d1a3a4295529effd",
+    "experiments/e06_dynamic_assignment.py": "9614aec165a53b47b9ecb5f95112af33166f1a58953ef128eef5dbd1bf66e894"
+  },
+  "preflight": [
+    {
+      "nodes": 1000,
+      "memory": {
+        "MemTotal": 540466987008,
+        "MemAvailable": 499408879616,
+        "visible_cgroup_limits": {
+          "/sys/fs/cgroup/user.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.max": "max"
+        },
+        "visible_cgroup_usage": {
+          "/sys/fs/cgroup/user.slice/memory.current": 232591110144,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.current": 17882566656,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.current": 1184735232
+        },
+        "address_space_soft_limit": -1,
+        "effective_available_bytes": 499408879616,
+        "cgroup_membership": "0::/user.slice/user-1006.slice/session-13966.scope\n"
+      },
+      "conservative_estimate_bytes": 300435456,
+      "permitted": true
+    },
+    {
+      "nodes": 2000,
+      "memory": {
+        "MemTotal": 540466987008,
+        "MemAvailable": 499191353344,
+        "visible_cgroup_limits": {
+          "/sys/fs/cgroup/user.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.max": "max"
+        },
+        "visible_cgroup_usage": {
+          "/sys/fs/cgroup/user.slice/memory.current": 232583053312,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.current": 17882337280,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.current": 1184505856
+        },
+        "address_space_soft_limit": -1,
+        "effective_available_bytes": 499191353344,
+        "cgroup_membership": "0::/user.slice/user-1006.slice/session-13966.scope\n"
+      },
+      "conservative_estimate_bytes": 396435456,
+      "permitted": true
+    },
+    {
+      "nodes": 5000,
+      "memory": {
+        "MemTotal": 540466987008,
+        "MemAvailable": 499150921728,
+        "visible_cgroup_limits": {
+          "/sys/fs/cgroup/user.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.max": "max"
+        },
+        "visible_cgroup_usage": {
+          "/sys/fs/cgroup/user.slice/memory.current": 232587935744,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.current": 17882562560,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.current": 1184473088
+        },
+        "address_space_soft_limit": -1,
+        "effective_available_bytes": 499150921728,
+        "cgroup_membership": "0::/user.slice/user-1006.slice/session-13966.scope\n"
+      },
+      "conservative_estimate_bytes": 1068435456,
+      "permitted": true
+    }
+  ],
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-107-generic-x86_64-with-glibc2.35",
+  "cpu_count": 512,
+  "cpu_model": "AMD EPYC 9754 128-Core Processor",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "networkx": "3.4.2",
+  "rss_scope": "whole fresh worker including imports, generation, setup, updates, fingerprints and quality",
+  "timing_scope": "graph-to-assignment stages, generation and validation excluded",
+  "caveat": "only visible cgroup limits inspected; no hidden-limit guarantee"
+}

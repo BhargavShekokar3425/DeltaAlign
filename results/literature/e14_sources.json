@@ -1,0 +1,91 @@
+{
+  "audit_date": "2026-10-03",
+  "scope": "targeted primary-source audit, not exhaustive novelty proof",
+  "sources": [
+    {
+      "id": "dynamic_hungarian",
+      "url": "https://www.cs.cmu.edu/~gertrude/dyn_assign_techreport.pdf",
+      "access": "original report full text",
+      "locator": "sections 4\u20136; Theorems 2\u20133"
+    },
+    {
+      "id": "inq",
+      "url": "https://www.researchgate.net/publication/269103814_Incremental_network_querying_in_biological_networks",
+      "access": "author-uploaded original full text",
+      "locator": "sections 3 and 4.2; DOI 10.1145/2649387.2660845"
+    },
+    {
+      "id": "refex",
+      "url": "https://eliassi.org/papers/henderson-kdd11.pdf",
+      "access": "indexed original abstract only; PDF opens failed",
+      "locator": "abstract; full algorithm details unresolved"
+    },
+    {
+      "id": "regal",
+      "url": "https://gemslab.github.io/papers/heimann-2018-regal.pdf",
+      "access": "author-hosted original full text",
+      "locator": "section 3; Algorithms 1\u20132"
+    },
+    {
+      "id": "dynamagna",
+      "url": "https://arxiv.org/pdf/1701.08842",
+      "access": "author preprint full text",
+      "locator": "section 2 and conclusion; journal online-extension wording unresolved"
+    },
+    {
+      "id": "dynawave",
+      "url": "https://academic.oup.com/bioinformatics/article/34/10/1795/4781097",
+      "access": "publisher original text",
+      "locator": "section 2"
+    },
+    {
+      "id": "got_wave",
+      "url": "https://academic.oup.com/bioinformatics/article/35/18/3527/5317165",
+      "access": "publisher original text",
+      "locator": "sections 2\u20133"
+    },
+    {
+      "id": "twadn",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7495832/",
+      "access": "original paper Methods indexed content",
+      "locator": "Methods"
+    },
+    {
+      "id": "dante",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10138164/",
+      "access": "original full text",
+      "locator": "sections 3.2\u20133.4"
+    },
+    {
+      "id": "inkstream",
+      "url": "https://www.comp.nus.edu.sg/~tulika/IPDPS25.pdf",
+      "access": "author-hosted published paper full text",
+      "locator": "introduction and section II; distinguish arithmetic/bitwise guarantees"
+    },
+    {
+      "id": "ripple_plus_plus",
+      "url": "https://arxiv.org/html/2601.12347v1",
+      "access": "v1 author preprint full text",
+      "locator": "sections 3.2\u20133.3"
+    },
+    {
+      "id": "neutron_rt",
+      "url": "https://arxiv.org/pdf/2603.20622",
+      "access": "author preprint inspected excerpts",
+      "locator": "abstract and conclusion; implementation compatibility unresolved"
+    },
+    {
+      "id": "idagemb",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0169023X26000558",
+      "access": "indexed original publisher abstract; full text open failed",
+      "locator": "abstract; algorithms/exactness/cost caching unresolved"
+    }
+  ],
+  "queries": [
+    "Incremental network querying in biological networks",
+    "REGAL neighborhood degree histograms",
+    "ReFeX recursive structural features",
+    "exact incremental GNN inference InkStream Ripple",
+    "incremental network alignment graph embeddings dynamic exact updates"
+  ]
+}

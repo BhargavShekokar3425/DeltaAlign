@@ -1,0 +1,102 @@
+[
+  {
+    "seed": 40,
+    "noise": 0.01,
+    "initial_cost_time": 0.08926494047045708,
+    "cache_time": 0.08184286020696163,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.4528439119458199,
+    "initial_scipy_time": 0.07847242616117
+  },
+  {
+    "seed": 41,
+    "noise": 0.01,
+    "initial_cost_time": 0.08598399348556995,
+    "cache_time": 0.08249473012983799,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.7774620465934277,
+    "initial_scipy_time": 0.09275487996637821
+  },
+  {
+    "seed": 42,
+    "noise": 0.01,
+    "initial_cost_time": 0.08593940548598766,
+    "cache_time": 0.08276952430605888,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.425216183066368,
+    "initial_scipy_time": 0.06658197939395905
+  },
+  {
+    "seed": 43,
+    "noise": 0.01,
+    "initial_cost_time": 0.08566311746835709,
+    "cache_time": 0.08309793658554554,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.3241152223199606,
+    "initial_scipy_time": 0.06645901873707771
+  },
+  {
+    "seed": 44,
+    "noise": 0.01,
+    "initial_cost_time": 0.08498403616249561,
+    "cache_time": 0.08259009756147861,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.8395275361835957,
+    "initial_scipy_time": 0.08929203450679779
+  },
+  {
+    "seed": 40,
+    "noise": 0.05,
+    "initial_cost_time": 0.0851818323135376,
+    "cache_time": 0.08231400512158871,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 2.5432500801980495,
+    "initial_scipy_time": 0.12434136122465134
+  },
+  {
+    "seed": 41,
+    "noise": 0.05,
+    "initial_cost_time": 0.08530608750879765,
+    "cache_time": 0.08219810947775841,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 3.372475454583764,
+    "initial_scipy_time": 0.1601835209876299
+  },
+  {
+    "seed": 42,
+    "noise": 0.05,
+    "initial_cost_time": 0.08537021279335022,
+    "cache_time": 0.08280424028635025,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 2.891072567552328,
+    "initial_scipy_time": 0.1348109021782875
+  },
+  {
+    "seed": 43,
+    "noise": 0.05,
+    "initial_cost_time": 0.0847111102193594,
+    "cache_time": 0.08210019953548908,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 3.2577765583992004,
+    "initial_scipy_time": 0.1457479652017355
+  },
+  {
+    "seed": 44,
+    "noise": 0.05,
+    "initial_cost_time": 0.08562705852091312,
+    "cache_time": 0.08251477405428886,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 3.0566402319818735,
+    "initial_scipy_time": 0.1441460493952036
+  }
+]

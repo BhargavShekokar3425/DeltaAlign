@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 0,
+    "n": 1000,
+    "noise": 0,
+    "nc": 0.945,
+    "unique_descriptors": 941,
+    "objective": 1.232595164407831e-30
+  },
+  {
+    "seed": 1,
+    "n": 1000,
+    "noise": 0,
+    "nc": 0.926,
+    "unique_descriptors": 937,
+    "objective": 3.549874073494553e-30
+  },
+  {
+    "seed": 2,
+    "n": 1000,
+    "noise": 0,
+    "nc": 0.928,
+    "unique_descriptors": 931,
+    "objective": 7.740697632481178e-30
+  },
+  {
+    "seed": 3,
+    "n": 1000,
+    "noise": 0,
+    "nc": 0.911,
+    "unique_descriptors": 921,
+    "objective": 4.338734978715565e-30
+  },
+  {
+    "seed": 4,
+    "n": 1000,
+    "noise": 0,
+    "nc": 0.919,
+    "unique_descriptors": 923,
+    "objective": 3.4019626537656134e-30
+  }
+]

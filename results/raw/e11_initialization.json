@@ -1,0 +1,6482 @@
+[
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1706789918243885,
+    "timings": {
+      "feature_time": 0.07353289052844048,
+      "cost_time": 0.011253457516431808,
+      "solver_time": 0.08589009568095207
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17700021155178547,
+    "timings": {
+      "feature_time": 0.08056989498436451,
+      "cost_time": 0.010823715478181839,
+      "solver_time": 0.0856043640524149
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17745999619364738,
+    "timings": {
+      "feature_time": 0.07995354011654854,
+      "cost_time": 0.011793239042162895,
+      "solver_time": 0.08571075648069382
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.16960122250020504,
+    "timings": {
+      "feature_time": 0.0744689516723156,
+      "cost_time": 0.009399544447660446,
+      "solver_time": 0.08573032915592194
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1765066385269165,
+    "timings": {
+      "feature_time": 0.08131246641278267,
+      "cost_time": 0.009441884234547615,
+      "solver_time": 0.08575031906366348
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17658654041588306,
+    "timings": {
+      "feature_time": 0.08020512945950031,
+      "cost_time": 0.010454250499606133,
+      "solver_time": 0.08592482469975948
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1691979318857193,
+    "timings": {
+      "feature_time": 0.07407293282449245,
+      "cost_time": 0.009464753791689873,
+      "solver_time": 0.08565726317465305
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17561733350157738,
+    "timings": {
+      "feature_time": 0.08020620234310627,
+      "cost_time": 0.009392553940415382,
+      "solver_time": 0.08601679839193821
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17567220516502857,
+    "timings": {
+      "feature_time": 0.08031295239925385,
+      "cost_time": 0.009396873414516449,
+      "solver_time": 0.08595989644527435
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.16940934397280216,
+    "timings": {
+      "feature_time": 0.07405528798699379,
+      "cost_time": 0.009373612701892853,
+      "solver_time": 0.08597750030457973
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1754121519625187,
+    "timings": {
+      "feature_time": 0.08030955493450165,
+      "cost_time": 0.009384265169501305,
+      "solver_time": 0.08571591228246689
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1799237970262766,
+    "timings": {
+      "feature_time": 0.08350114151835442,
+      "cost_time": 0.010466763749718666,
+      "solver_time": 0.08595378510653973
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.14725018851459026,
+    "timings": {
+      "feature_time": 0.07388594187796116,
+      "cost_time": 0.00949510745704174,
+      "solver_time": 0.06386759132146835
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.15524988435208797,
+    "timings": {
+      "feature_time": 0.08137821219861507,
+      "cost_time": 0.010084288194775581,
+      "solver_time": 0.06378519907593727
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15568196028470993,
+    "timings": {
+      "feature_time": 0.08087394014000893,
+      "cost_time": 0.010642264038324356,
+      "solver_time": 0.06416357308626175
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.14767954871058464,
+    "timings": {
+      "feature_time": 0.0743135567754507,
+      "cost_time": 0.009391525760293007,
+      "solver_time": 0.06397192366421223
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.15448252484202385,
+    "timings": {
+      "feature_time": 0.08091583102941513,
+      "cost_time": 0.009440455585718155,
+      "solver_time": 0.06412403844296932
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15480044670403004,
+    "timings": {
+      "feature_time": 0.08057312853634357,
+      "cost_time": 0.010080482810735703,
+      "solver_time": 0.06414409913122654
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.14736131578683853,
+    "timings": {
+      "feature_time": 0.07366583682596684,
+      "cost_time": 0.009543167427182198,
+      "solver_time": 0.06415002979338169
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1546302456408739,
+    "timings": {
+      "feature_time": 0.08100403845310211,
+      "cost_time": 0.00945371761918068,
+      "solver_time": 0.06417040154337883
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15404194965958595,
+    "timings": {
+      "feature_time": 0.0806469526141882,
+      "cost_time": 0.009473077952861786,
+      "solver_time": 0.06391981989145279
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.14779455587267876,
+    "timings": {
+      "feature_time": 0.07439535856246948,
+      "cost_time": 0.009422335773706436,
+      "solver_time": 0.06397455185651779
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1601101290434599,
+    "timings": {
+      "feature_time": 0.08064652793109417,
+      "cost_time": 0.00940333865582943,
+      "solver_time": 0.07005815207958221
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15494953468441963,
+    "timings": {
+      "feature_time": 0.08046069741249084,
+      "cost_time": 0.010240072384476662,
+      "solver_time": 0.06424680352210999
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.16888385266065598,
+    "timings": {
+      "feature_time": 0.07385283708572388,
+      "cost_time": 0.00943341851234436,
+      "solver_time": 0.08559486269950867
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17586048133671284,
+    "timings": {
+      "feature_time": 0.08068867586553097,
+      "cost_time": 0.00937906838953495,
+      "solver_time": 0.08578991703689098
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.175838528200984,
+    "timings": {
+      "feature_time": 0.08070827648043633,
+      "cost_time": 0.00942978821694851,
+      "solver_time": 0.08569749444723129
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.16901014372706413,
+    "timings": {
+      "feature_time": 0.07384382374584675,
+      "cost_time": 0.009409477934241295,
+      "solver_time": 0.08575371094048023
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1753512155264616,
+    "timings": {
+      "feature_time": 0.08051944710314274,
+      "cost_time": 0.009396100416779518,
+      "solver_time": 0.08543323539197445
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1750789526849985,
+    "timings": {
+      "feature_time": 0.08022688329219818,
+      "cost_time": 0.00946502760052681,
+      "solver_time": 0.08538480661809444
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.16917505487799644,
+    "timings": {
+      "feature_time": 0.07372490875422955,
+      "cost_time": 0.00939531996846199,
+      "solver_time": 0.08605176769196987
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17886990681290627,
+    "timings": {
+      "feature_time": 0.08410204201936722,
+      "cost_time": 0.009403157979249954,
+      "solver_time": 0.08536226488649845
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17536832578480244,
+    "timings": {
+      "feature_time": 0.08065259270370007,
+      "cost_time": 0.009449150413274765,
+      "solver_time": 0.08526413515210152
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1691303327679634,
+    "timings": {
+      "feature_time": 0.07416405342519283,
+      "cost_time": 0.009427789598703384,
+      "solver_time": 0.08553618751466274
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17591924034059048,
+    "timings": {
+      "feature_time": 0.08083858154714108,
+      "cost_time": 0.009382469579577446,
+      "solver_time": 0.08569610118865967
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17609824053943157,
+    "timings": {
+      "feature_time": 0.08048311620950699,
+      "cost_time": 0.010117223486304283,
+      "solver_time": 0.08549582958221436
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.17309844680130482,
+    "timings": {
+      "feature_time": 0.07428059913218021,
+      "cost_time": 0.009385291486978531,
+      "solver_time": 0.08943047933280468
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17907418869435787,
+    "timings": {
+      "feature_time": 0.08079314604401588,
+      "cost_time": 0.009352060034871101,
+      "solver_time": 0.08892649598419666
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1791972815990448,
+    "timings": {
+      "feature_time": 0.08058130368590355,
+      "cost_time": 0.009492691606283188,
+      "solver_time": 0.08912137523293495
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.17272964492440224,
+    "timings": {
+      "feature_time": 0.07418530248105526,
+      "cost_time": 0.009385570883750916,
+      "solver_time": 0.08915640227496624
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1785182449966669,
+    "timings": {
+      "feature_time": 0.08025012537837029,
+      "cost_time": 0.009390721097588539,
+      "solver_time": 0.08887457847595215
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1799002494663,
+    "timings": {
+      "feature_time": 0.08031281642615795,
+      "cost_time": 0.010185297578573227,
+      "solver_time": 0.08940008468925953
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.17256115190684795,
+    "timings": {
+      "feature_time": 0.07378865405917168,
+      "cost_time": 0.009390460327267647,
+      "solver_time": 0.08937979862093925
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17922603897750378,
+    "timings": {
+      "feature_time": 0.0807797908782959,
+      "cost_time": 0.00939539261162281,
+      "solver_time": 0.08904807642102242
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17913863994181156,
+    "timings": {
+      "feature_time": 0.0803595520555973,
+      "cost_time": 0.009499551728367805,
+      "solver_time": 0.08927729725837708
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.17340286076068878,
+    "timings": {
+      "feature_time": 0.07469463720917702,
+      "cost_time": 0.009393028914928436,
+      "solver_time": 0.08931184187531471
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1823992282152176,
+    "timings": {
+      "feature_time": 0.08330985903739929,
+      "cost_time": 0.009896526113152504,
+      "solver_time": 0.08918976411223412
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.18025098368525505,
+    "timings": {
+      "feature_time": 0.08086878061294556,
+      "cost_time": 0.01010945625603199,
+      "solver_time": 0.0892706923186779
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.14751151949167252,
+    "timings": {
+      "feature_time": 0.07486794330179691,
+      "cost_time": 0.009385650977492332,
+      "solver_time": 0.06325569190084934
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1539483144879341,
+    "timings": {
+      "feature_time": 0.08131496049463749,
+      "cost_time": 0.009388715028762817,
+      "solver_time": 0.06324217841029167
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15355860069394112,
+    "timings": {
+      "feature_time": 0.0807329248636961,
+      "cost_time": 0.009410122409462929,
+      "solver_time": 0.06341316364705563
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.14719959907233715,
+    "timings": {
+      "feature_time": 0.07417283952236176,
+      "cost_time": 0.009387044236063957,
+      "solver_time": 0.06363719701766968
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.15370943769812584,
+    "timings": {
+      "feature_time": 0.08072413876652718,
+      "cost_time": 0.00950680486857891,
+      "solver_time": 0.0634758286178112
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15354033559560776,
+    "timings": {
+      "feature_time": 0.08093258738517761,
+      "cost_time": 0.009454155340790749,
+      "solver_time": 0.06315071322023869
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.14712373726069927,
+    "timings": {
+      "feature_time": 0.074261374771595,
+      "cost_time": 0.009474556893110275,
+      "solver_time": 0.06338522955775261
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1542279925197363,
+    "timings": {
+      "feature_time": 0.08130097761750221,
+      "cost_time": 0.009468823671340942,
+      "solver_time": 0.06345612928271294
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15356417559087276,
+    "timings": {
+      "feature_time": 0.08068626374006271,
+      "cost_time": 0.009420624002814293,
+      "solver_time": 0.06345557048916817
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.14719999767839909,
+    "timings": {
+      "feature_time": 0.07445535995066166,
+      "cost_time": 0.00944354385137558,
+      "solver_time": 0.06329826265573502
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.15362898260354996,
+    "timings": {
+      "feature_time": 0.08095213770866394,
+      "cost_time": 0.009399451315402985,
+      "solver_time": 0.0632745809853077
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15356355160474777,
+    "timings": {
+      "feature_time": 0.08069055527448654,
+      "cost_time": 0.009429214522242546,
+      "solver_time": 0.0634415652602911
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.2168974783271551,
+    "timings": {
+      "feature_time": 0.07479655742645264,
+      "cost_time": 0.009423144161701202,
+      "solver_time": 0.13267472572624683
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.22626157104969025,
+    "timings": {
+      "feature_time": 0.08412199094891548,
+      "cost_time": 0.009415443986654282,
+      "solver_time": 0.13272123597562313
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2225601989775896,
+    "timings": {
+      "feature_time": 0.08088349364697933,
+      "cost_time": 0.009431375190615654,
+      "solver_time": 0.1322425752878189
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.21574757434427738,
+    "timings": {
+      "feature_time": 0.07416003942489624,
+      "cost_time": 0.00939890369772911,
+      "solver_time": 0.13218540884554386
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.2225048430263996,
+    "timings": {
+      "feature_time": 0.08080130815505981,
+      "cost_time": 0.009365633130073547,
+      "solver_time": 0.13233575224876404
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.22262939624488354,
+    "timings": {
+      "feature_time": 0.0808283481746912,
+      "cost_time": 0.009416647255420685,
+      "solver_time": 0.13238183222711086
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.21550234407186508,
+    "timings": {
+      "feature_time": 0.07377115823328495,
+      "cost_time": 0.009381154552102089,
+      "solver_time": 0.13234731182456017
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.22164751216769218,
+    "timings": {
+      "feature_time": 0.08039595931768417,
+      "cost_time": 0.009471055120229721,
+      "solver_time": 0.1317779365926981
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.22282085195183754,
+    "timings": {
+      "feature_time": 0.08067909069359303,
+      "cost_time": 0.009411124512553215,
+      "solver_time": 0.13272840529680252
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.21552731841802597,
+    "timings": {
+      "feature_time": 0.07414006814360619,
+      "cost_time": 0.009422363713383675,
+      "solver_time": 0.1319623738527298
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.2219599261879921,
+    "timings": {
+      "feature_time": 0.08058370277285576,
+      "cost_time": 0.009413566440343857,
+      "solver_time": 0.13195987604558468
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2228817082941532,
+    "timings": {
+      "feature_time": 0.08086870051920414,
+      "cost_time": 0.0094304159283638,
+      "solver_time": 0.1325803715735674
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.20833862014114857,
+    "timings": {
+      "feature_time": 0.074505515396595,
+      "cost_time": 0.009446067735552788,
+      "solver_time": 0.1243843361735344
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.21833906322717667,
+    "timings": {
+      "feature_time": 0.08463535830378532,
+      "cost_time": 0.009418385103344917,
+      "solver_time": 0.12428366579115391
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.21491453051567078,
+    "timings": {
+      "feature_time": 0.08103523775935173,
+      "cost_time": 0.00942341797053814,
+      "solver_time": 0.12445382587611675
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.2075769118964672,
+    "timings": {
+      "feature_time": 0.07452207989990711,
+      "cost_time": 0.009354706853628159,
+      "solver_time": 0.12369703501462936
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.21362337097525597,
+    "timings": {
+      "feature_time": 0.0805358774960041,
+      "cost_time": 0.009382648393511772,
+      "solver_time": 0.12370234727859497
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2137770652770996,
+    "timings": {
+      "feature_time": 0.0806035790592432,
+      "cost_time": 0.00946284830570221,
+      "solver_time": 0.12370853684842587
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.20791866816580296,
+    "timings": {
+      "feature_time": 0.0740614514797926,
+      "cost_time": 0.00941401906311512,
+      "solver_time": 0.12444056011736393
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.21408045664429665,
+    "timings": {
+      "feature_time": 0.08078267239034176,
+      "cost_time": 0.009382456541061401,
+      "solver_time": 0.12391314283013344
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.21367135643959045,
+    "timings": {
+      "feature_time": 0.08044766075909138,
+      "cost_time": 0.009445806965231895,
+      "solver_time": 0.12377557344734669
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.20785203948616982,
+    "timings": {
+      "feature_time": 0.07446436770260334,
+      "cost_time": 0.009530879557132721,
+      "solver_time": 0.12385445460677147
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.21380732767283916,
+    "timings": {
+      "feature_time": 0.08082117885351181,
+      "cost_time": 0.009458977729082108,
+      "solver_time": 0.12352462857961655
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.21431895159184933,
+    "timings": {
+      "feature_time": 0.08070244640111923,
+      "cost_time": 0.00944754108786583,
+      "solver_time": 0.12416679598391056
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.22290454432368279,
+    "timings": {
+      "feature_time": 0.07476314343512058,
+      "cost_time": 0.009411340579390526,
+      "solver_time": 0.13872762024402618
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.22925058379769325,
+    "timings": {
+      "feature_time": 0.08119949698448181,
+      "cost_time": 0.009377187117934227,
+      "solver_time": 0.13867155276238918
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2291697133332491,
+    "timings": {
+      "feature_time": 0.08129473589360714,
+      "cost_time": 0.009409228339791298,
+      "solver_time": 0.1384632308036089
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.2227374780923128,
+    "timings": {
+      "feature_time": 0.07443397864699364,
+      "cost_time": 0.009415248408913612,
+      "solver_time": 0.13888531178236008
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.2289685755968094,
+    "timings": {
+      "feature_time": 0.08075071685016155,
+      "cost_time": 0.009415680542588234,
+      "solver_time": 0.13880014047026634
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.22826288267970085,
+    "timings": {
+      "feature_time": 0.08056424744427204,
+      "cost_time": 0.009408347308635712,
+      "solver_time": 0.1382878441363573
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.22216802835464478,
+    "timings": {
+      "feature_time": 0.07451634295284748,
+      "cost_time": 0.009392149746418,
+      "solver_time": 0.13825644366443157
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.22844705916941166,
+    "timings": {
+      "feature_time": 0.08090872503817081,
+      "cost_time": 0.009412849321961403,
+      "solver_time": 0.13812297396361828
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.22931258752942085,
+    "timings": {
+      "feature_time": 0.08106224797666073,
+      "cost_time": 0.009534241631627083,
+      "solver_time": 0.1387133877724409
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.22187837585806847,
+    "timings": {
+      "feature_time": 0.07419213652610779,
+      "cost_time": 0.009438972920179367,
+      "solver_time": 0.13824499025940895
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.23242349550127983,
+    "timings": {
+      "feature_time": 0.08054710365831852,
+      "cost_time": 0.009477920830249786,
+      "solver_time": 0.14239617250859737
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2285185120999813,
+    "timings": {
+      "feature_time": 0.08090054988861084,
+      "cost_time": 0.009454809129238129,
+      "solver_time": 0.13816026039421558
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.21972697973251343,
+    "timings": {
+      "feature_time": 0.07468697614967823,
+      "cost_time": 0.009459443390369415,
+      "solver_time": 0.1355778630822897
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.22574257850646973,
+    "timings": {
+      "feature_time": 0.08072789199650288,
+      "cost_time": 0.009424591436982155,
+      "solver_time": 0.13558786362409592
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.22601336240768433,
+    "timings": {
+      "feature_time": 0.08105669729411602,
+      "cost_time": 0.009416760876774788,
+      "solver_time": 0.13553697429597378
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.21933647990226746,
+    "timings": {
+      "feature_time": 0.07478214986622334,
+      "cost_time": 0.009469432756304741,
+      "solver_time": 0.1350824497640133
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.22674288041889668,
+    "timings": {
+      "feature_time": 0.08168921619653702,
+      "cost_time": 0.009358381852507591,
+      "solver_time": 0.13569227419793606
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2269851639866829,
+    "timings": {
+      "feature_time": 0.08099700137972832,
+      "cost_time": 0.010417001321911812,
+      "solver_time": 0.13556933216750622
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.2187940962612629,
+    "timings": {
+      "feature_time": 0.07400566898286343,
+      "cost_time": 0.009409759193658829,
+      "solver_time": 0.13537616655230522
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.22525732964277267,
+    "timings": {
+      "feature_time": 0.08080336079001427,
+      "cost_time": 0.009387671947479248,
+      "solver_time": 0.13506289385259151
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2258413452655077,
+    "timings": {
+      "feature_time": 0.08090268447995186,
+      "cost_time": 0.009420793503522873,
+      "solver_time": 0.13551554083824158
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.21894379146397114,
+    "timings": {
+      "feature_time": 0.07437210530042648,
+      "cost_time": 0.009369032457470894,
+      "solver_time": 0.13520054146647453
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.22566023468971252,
+    "timings": {
+      "feature_time": 0.08095909841358662,
+      "cost_time": 0.009403740987181664,
+      "solver_time": 0.13529533334076405
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.22675369679927826,
+    "timings": {
+      "feature_time": 0.08115492016077042,
+      "cost_time": 0.010178519412875175,
+      "solver_time": 0.13541766814887524
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.23803040012717247,
+    "timings": {
+      "feature_time": 0.07426969707012177,
+      "cost_time": 0.009382179006934166,
+      "solver_time": 0.1543760523200035
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.23560700751841068,
+    "timings": {
+      "feature_time": 0.0808205921202898,
+      "cost_time": 0.009374171495437622,
+      "solver_time": 0.1454097218811512
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.23650880716741085,
+    "timings": {
+      "feature_time": 0.08106680400669575,
+      "cost_time": 0.00941392406821251,
+      "solver_time": 0.14602592960000038
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.22943352721631527,
+    "timings": {
+      "feature_time": 0.07427951134741306,
+      "cost_time": 0.009429141879081726,
+      "solver_time": 0.14572196453809738
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.2362155206501484,
+    "timings": {
+      "feature_time": 0.08083157986402512,
+      "cost_time": 0.009375844150781631,
+      "solver_time": 0.14600639790296555
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.23716957680881023,
+    "timings": {
+      "feature_time": 0.08075090497732162,
+      "cost_time": 0.010454103350639343,
+      "solver_time": 0.14596222713589668
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.22926298156380653,
+    "timings": {
+      "feature_time": 0.07417959533631802,
+      "cost_time": 0.009432891383767128,
+      "solver_time": 0.1456479113548994
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.23630010336637497,
+    "timings": {
+      "feature_time": 0.0814785473048687,
+      "cost_time": 0.009407633915543556,
+      "solver_time": 0.14541232027113438
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2359322588890791,
+    "timings": {
+      "feature_time": 0.08109333366155624,
+      "cost_time": 0.009406782686710358,
+      "solver_time": 0.1454303003847599
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.22898431308567524,
+    "timings": {
+      "feature_time": 0.07410592772066593,
+      "cost_time": 0.009378323331475258,
+      "solver_time": 0.14549746923148632
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.23587645404040813,
+    "timings": {
+      "feature_time": 0.08058184385299683,
+      "cost_time": 0.009394725784659386,
+      "solver_time": 0.14589721523225307
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ba",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.2352808639407158,
+    "timings": {
+      "feature_time": 0.08049393072724342,
+      "cost_time": 0.009422726929187775,
+      "solver_time": 0.14536190778017044
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.10270240157842636,
+    "timings": {
+      "feature_time": 0.07476645708084106,
+      "cost_time": 0.009362323209643364,
+      "solver_time": 0.018571488559246063
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10899395681917667,
+    "timings": {
+      "feature_time": 0.08094330318272114,
+      "cost_time": 0.00944068655371666,
+      "solver_time": 0.01860819011926651
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10903808660805225,
+    "timings": {
+      "feature_time": 0.08099672012031078,
+      "cost_time": 0.009420616552233696,
+      "solver_time": 0.018619120121002197
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.10267412289977074,
+    "timings": {
+      "feature_time": 0.07469413988292217,
+      "cost_time": 0.009370874613523483,
+      "solver_time": 0.01860695704817772
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10874306783080101,
+    "timings": {
+      "feature_time": 0.08061583153903484,
+      "cost_time": 0.00943247601389885,
+      "solver_time": 0.018693240359425545
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10858919285237789,
+    "timings": {
+      "feature_time": 0.08052988909184933,
+      "cost_time": 0.009436525404453278,
+      "solver_time": 0.018621528521180153
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.10231839306652546,
+    "timings": {
+      "feature_time": 0.07430359721183777,
+      "cost_time": 0.009381616488099098,
+      "solver_time": 0.01863097958266735
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10875887051224709,
+    "timings": {
+      "feature_time": 0.08072923310101032,
+      "cost_time": 0.009463075548410416,
+      "solver_time": 0.018565060570836067
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1091608926653862,
+    "timings": {
+      "feature_time": 0.0811553094536066,
+      "cost_time": 0.009411677718162537,
+      "solver_time": 0.018592072650790215
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.10255174711346626,
+    "timings": {
+      "feature_time": 0.07454898208379745,
+      "cost_time": 0.009367715567350388,
+      "solver_time": 0.018633179366588593
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10892961546778679,
+    "timings": {
+      "feature_time": 0.08094198815524578,
+      "cost_time": 0.0094206053763628,
+      "solver_time": 0.018565280362963676
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10900219529867172,
+    "timings": {
+      "feature_time": 0.08097147941589355,
+      "cost_time": 0.009370435029268265,
+      "solver_time": 0.018658651039004326
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.10321436077356339,
+    "timings": {
+      "feature_time": 0.07492068037390709,
+      "cost_time": 0.009421944618225098,
+      "solver_time": 0.01886884495615959
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.11012282222509384,
+    "timings": {
+      "feature_time": 0.0817402396351099,
+      "cost_time": 0.009447688236832619,
+      "solver_time": 0.018932614475488663
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10984871722757816,
+    "timings": {
+      "feature_time": 0.08154074847698212,
+      "cost_time": 0.009423529729247093,
+      "solver_time": 0.01888231374323368
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1024713646620512,
+    "timings": {
+      "feature_time": 0.07411955296993256,
+      "cost_time": 0.009412389248609543,
+      "solver_time": 0.018936915323138237
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10893797129392624,
+    "timings": {
+      "feature_time": 0.08042554743587971,
+      "cost_time": 0.009504677727818489,
+      "solver_time": 0.019005825743079185
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1093409638851881,
+    "timings": {
+      "feature_time": 0.08081166073679924,
+      "cost_time": 0.009644700214266777,
+      "solver_time": 0.01888284645974636
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.10256537795066833,
+    "timings": {
+      "feature_time": 0.07417739555239677,
+      "cost_time": 0.009421098977327347,
+      "solver_time": 0.018964465707540512
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1089454535394907,
+    "timings": {
+      "feature_time": 0.0806342214345932,
+      "cost_time": 0.009384747594594955,
+      "solver_time": 0.01892460510134697
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10941486805677414,
+    "timings": {
+      "feature_time": 0.08108220621943474,
+      "cost_time": 0.009402016177773476,
+      "solver_time": 0.018928563222289085
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.10286861099302769,
+    "timings": {
+      "feature_time": 0.07439830712974072,
+      "cost_time": 0.00942099466919899,
+      "solver_time": 0.019046779721975327
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10906702652573586,
+    "timings": {
+      "feature_time": 0.08085412532091141,
+      "cost_time": 0.009430088102817535,
+      "solver_time": 0.018780775368213654
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10912729799747467,
+    "timings": {
+      "feature_time": 0.08091967925429344,
+      "cost_time": 0.009452447295188904,
+      "solver_time": 0.018753012642264366
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.10588262975215912,
+    "timings": {
+      "feature_time": 0.07436324097216129,
+      "cost_time": 0.00943862833082676,
+      "solver_time": 0.022078577429056168
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1128181591629982,
+    "timings": {
+      "feature_time": 0.08135971426963806,
+      "cost_time": 0.009420758113265038,
+      "solver_time": 0.022036157548427582
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.11275022104382515,
+    "timings": {
+      "feature_time": 0.08122739940881729,
+      "cost_time": 0.00945202074944973,
+      "solver_time": 0.022068610414862633
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.10556579753756523,
+    "timings": {
+      "feature_time": 0.07403397001326084,
+      "cost_time": 0.00938928872346878,
+      "solver_time": 0.02214030735194683
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.11251275800168514,
+    "timings": {
+      "feature_time": 0.08096442930400372,
+      "cost_time": 0.00947394035756588,
+      "solver_time": 0.022072652354836464
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.11199861578643322,
+    "timings": {
+      "feature_time": 0.08050806820392609,
+      "cost_time": 0.009445108473300934,
+      "solver_time": 0.022043908014893532
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.10487429983913898,
+    "timings": {
+      "feature_time": 0.07344750314950943,
+      "cost_time": 0.009379087015986443,
+      "solver_time": 0.022045588120818138
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.11256005242466927,
+    "timings": {
+      "feature_time": 0.08108070306479931,
+      "cost_time": 0.00940060056746006,
+      "solver_time": 0.022076908499002457
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.11273491196334362,
+    "timings": {
+      "feature_time": 0.08123168349266052,
+      "cost_time": 0.00941292755305767,
+      "solver_time": 0.022088460624217987
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.10563590191304684,
+    "timings": {
+      "feature_time": 0.07414580509066582,
+      "cost_time": 0.009389149025082588,
+      "solver_time": 0.022098921239376068
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.11241171322762966,
+    "timings": {
+      "feature_time": 0.08094847574830055,
+      "cost_time": 0.009371267631649971,
+      "solver_time": 0.022090310230851173
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.11259116418659687,
+    "timings": {
+      "feature_time": 0.08103792369365692,
+      "cost_time": 0.009411459788680077,
+      "solver_time": 0.022139672189950943
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1007136944681406,
+    "timings": {
+      "feature_time": 0.07417862676084042,
+      "cost_time": 0.009418647736310959,
+      "solver_time": 0.017114119604229927
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10751024633646011,
+    "timings": {
+      "feature_time": 0.08104109764099121,
+      "cost_time": 0.009380606934428215,
+      "solver_time": 0.017086949199438095
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10719915479421616,
+    "timings": {
+      "feature_time": 0.0807889774441719,
+      "cost_time": 0.009412860497832298,
+      "solver_time": 0.016995307058095932
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.10091703943908215,
+    "timings": {
+      "feature_time": 0.07444699108600616,
+      "cost_time": 0.009435540065169334,
+      "solver_time": 0.017032280564308167
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10751194879412651,
+    "timings": {
+      "feature_time": 0.08097760006785393,
+      "cost_time": 0.00947556085884571,
+      "solver_time": 0.017056690528988838
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10748183913528919,
+    "timings": {
+      "feature_time": 0.08097407035529613,
+      "cost_time": 0.009451419115066528,
+      "solver_time": 0.017054399475455284
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.10329769924283028,
+    "timings": {
+      "feature_time": 0.0761188231408596,
+      "cost_time": 0.009561441838741302,
+      "solver_time": 0.0176099743694067
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10813897661864758,
+    "timings": {
+      "feature_time": 0.08161024749279022,
+      "cost_time": 0.009419947862625122,
+      "solver_time": 0.01710701920092106
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10769828036427498,
+    "timings": {
+      "feature_time": 0.08078344725072384,
+      "cost_time": 0.00989692285656929,
+      "solver_time": 0.01701599918305874
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1003387551754713,
+    "timings": {
+      "feature_time": 0.07389364764094353,
+      "cost_time": 0.00939628854393959,
+      "solver_time": 0.017046499997377396
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.10746625438332558,
+    "timings": {
+      "feature_time": 0.08061220124363899,
+      "cost_time": 0.009365446865558624,
+      "solver_time": 0.01747627556324005
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.10719034820795059,
+    "timings": {
+      "feature_time": 0.08048275858163834,
+      "cost_time": 0.009650161489844322,
+      "solver_time": 0.017055010423064232
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1056020949035883,
+    "timings": {
+      "feature_time": 0.07404623180627823,
+      "cost_time": 0.009396210312843323,
+      "solver_time": 0.022157663479447365
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.11256137117743492,
+    "timings": {
+      "feature_time": 0.08106108754873276,
+      "cost_time": 0.009430892765522003,
+      "solver_time": 0.022067222744226456
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.11315459571778774,
+    "timings": {
+      "feature_time": 0.08151123113930225,
+      "cost_time": 0.009458819404244423,
+      "solver_time": 0.022182555869221687
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.10546735674142838,
+    "timings": {
+      "feature_time": 0.07396228425204754,
+      "cost_time": 0.00941500999033451,
+      "solver_time": 0.0220880638808012
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1122423280030489,
+    "timings": {
+      "feature_time": 0.08084005676209927,
+      "cost_time": 0.009380649775266647,
+      "solver_time": 0.022019382566213608
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.11229375377297401,
+    "timings": {
+      "feature_time": 0.08085004799067974,
+      "cost_time": 0.009405389428138733,
+      "solver_time": 0.022035853937268257
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.10560422204434872,
+    "timings": {
+      "feature_time": 0.07404740527272224,
+      "cost_time": 0.009404109790921211,
+      "solver_time": 0.022150276228785515
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.11200150102376938,
+    "timings": {
+      "feature_time": 0.08056039549410343,
+      "cost_time": 0.009375769644975662,
+      "solver_time": 0.022063184529542923
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.11226528137922287,
+    "timings": {
+      "feature_time": 0.08071366883814335,
+      "cost_time": 0.009427780285477638,
+      "solver_time": 0.022121913731098175
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.10605624876916409,
+    "timings": {
+      "feature_time": 0.0745767243206501,
+      "cost_time": 0.009365150704979897,
+      "solver_time": 0.022112105041742325
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.11250984854996204,
+    "timings": {
+      "feature_time": 0.08086195215582848,
+      "cost_time": 0.009385412558913231,
+      "solver_time": 0.022260116413235664
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.11233461648225784,
+    "timings": {
+      "feature_time": 0.08082639053463936,
+      "cost_time": 0.009400000795722008,
+      "solver_time": 0.022106094285845757
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.14442732371389866,
+    "timings": {
+      "feature_time": 0.07421451434493065,
+      "cost_time": 0.0094088613986969,
+      "solver_time": 0.06080142967402935
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1514640599489212,
+    "timings": {
+      "feature_time": 0.08122774958610535,
+      "cost_time": 0.009404599666595459,
+      "solver_time": 0.06082984805107117
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1519688330590725,
+    "timings": {
+      "feature_time": 0.08078675158321857,
+      "cost_time": 0.009873323142528534,
+      "solver_time": 0.06130662560462952
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.14429527521133423,
+    "timings": {
+      "feature_time": 0.0741589330136776,
+      "cost_time": 0.009356889873743057,
+      "solver_time": 0.06077677197754383
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.15148931182920933,
+    "timings": {
+      "feature_time": 0.08117346093058586,
+      "cost_time": 0.009412772953510284,
+      "solver_time": 0.06090119108557701
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15183007717132568,
+    "timings": {
+      "feature_time": 0.08123520947992802,
+      "cost_time": 0.009437432512640953,
+      "solver_time": 0.06115514598786831
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.14426957815885544,
+    "timings": {
+      "feature_time": 0.07373690977692604,
+      "cost_time": 0.009381629526615143,
+      "solver_time": 0.06114870682358742
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.15121986344456673,
+    "timings": {
+      "feature_time": 0.08090249076485634,
+      "cost_time": 0.009387960657477379,
+      "solver_time": 0.06092752330005169
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1508508212864399,
+    "timings": {
+      "feature_time": 0.0805378146469593,
+      "cost_time": 0.009409500285983086,
+      "solver_time": 0.060901323333382607
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.14426377229392529,
+    "timings": {
+      "feature_time": 0.07406454719603062,
+      "cost_time": 0.0093906931579113,
+      "solver_time": 0.06080619618296623
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.15139173716306686,
+    "timings": {
+      "feature_time": 0.08096837997436523,
+      "cost_time": 0.009407000616192818,
+      "solver_time": 0.061013877391815186
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.15151233971118927,
+    "timings": {
+      "feature_time": 0.0811629518866539,
+      "cost_time": 0.009395100176334381,
+      "solver_time": 0.06095197610557079
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.13217584788799286,
+    "timings": {
+      "feature_time": 0.07413762994110584,
+      "cost_time": 0.009378481656312943,
+      "solver_time": 0.04865713603794575
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.13935070484876633,
+    "timings": {
+      "feature_time": 0.08133158832788467,
+      "cost_time": 0.009416582062840462,
+      "solver_time": 0.048600856214761734
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1418145913630724,
+    "timings": {
+      "feature_time": 0.08137816749513149,
+      "cost_time": 0.009457090869545937,
+      "solver_time": 0.05097749084234238
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1326514445245266,
+    "timings": {
+      "feature_time": 0.07437002472579479,
+      "cost_time": 0.009388642385601997,
+      "solver_time": 0.048890041187405586
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1393685769289732,
+    "timings": {
+      "feature_time": 0.08129448816180229,
+      "cost_time": 0.00937478244304657,
+      "solver_time": 0.04869716800749302
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.13924267888069153,
+    "timings": {
+      "feature_time": 0.08124300092458725,
+      "cost_time": 0.009459162130951881,
+      "solver_time": 0.0485386960208416
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1323076095432043,
+    "timings": {
+      "feature_time": 0.07414303719997406,
+      "cost_time": 0.009408911690115929,
+      "solver_time": 0.04875344783067703
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1394030526280403,
+    "timings": {
+      "feature_time": 0.081401651725173,
+      "cost_time": 0.009405551478266716,
+      "solver_time": 0.04859351925551891
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1390483994036913,
+    "timings": {
+      "feature_time": 0.08096683770418167,
+      "cost_time": 0.009413812309503555,
+      "solver_time": 0.04866567999124527
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.13290664926171303,
+    "timings": {
+      "feature_time": 0.07485576532781124,
+      "cost_time": 0.0094077717512846,
+      "solver_time": 0.04864087887108326
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1392744965851307,
+    "timings": {
+      "feature_time": 0.08121022395789623,
+      "cost_time": 0.00936301238834858,
+      "solver_time": 0.04869893193244934
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14037998765707016,
+    "timings": {
+      "feature_time": 0.08137277700006962,
+      "cost_time": 0.010382073000073433,
+      "solver_time": 0.04862290062010288
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.14110547304153442,
+    "timings": {
+      "feature_time": 0.07419659197330475,
+      "cost_time": 0.009388765320181847,
+      "solver_time": 0.057517947629094124
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1481603290885687,
+    "timings": {
+      "feature_time": 0.08123487792909145,
+      "cost_time": 0.009433092549443245,
+      "solver_time": 0.0574900284409523
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14819454960525036,
+    "timings": {
+      "feature_time": 0.08145559020340443,
+      "cost_time": 0.009461134672164917,
+      "solver_time": 0.057275597006082535
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.14069419912993908,
+    "timings": {
+      "feature_time": 0.0739520899951458,
+      "cost_time": 0.009405635297298431,
+      "solver_time": 0.05733429826796055
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.14798500947654247,
+    "timings": {
+      "feature_time": 0.08099741488695145,
+      "cost_time": 0.009431412443518639,
+      "solver_time": 0.05755420960485935
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14884386025369167,
+    "timings": {
+      "feature_time": 0.08135923929512501,
+      "cost_time": 0.00987720862030983,
+      "solver_time": 0.057605478912591934
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.14102118648588657,
+    "timings": {
+      "feature_time": 0.07417185418307781,
+      "cost_time": 0.009365493431687355,
+      "solver_time": 0.05748127959668636
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.14825228974223137,
+    "timings": {
+      "feature_time": 0.0812525525689125,
+      "cost_time": 0.009435364976525307,
+      "solver_time": 0.0575618501752615
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14796536415815353,
+    "timings": {
+      "feature_time": 0.0810178779065609,
+      "cost_time": 0.009412664920091629,
+      "solver_time": 0.05753309093415737
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1415101271122694,
+    "timings": {
+      "feature_time": 0.07451233826577663,
+      "cost_time": 0.009396182373166084,
+      "solver_time": 0.05759964510798454
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.14803014881908894,
+    "timings": {
+      "feature_time": 0.08120766468346119,
+      "cost_time": 0.009388821199536324,
+      "solver_time": 0.057431211695075035
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14849494211375713,
+    "timings": {
+      "feature_time": 0.0816402081400156,
+      "cost_time": 0.00944778323173523,
+      "solver_time": 0.05740435980260372
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.13771316036581993,
+    "timings": {
+      "feature_time": 0.07427426055073738,
+      "cost_time": 0.009368112310767174,
+      "solver_time": 0.05406821705400944
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.14474457874894142,
+    "timings": {
+      "feature_time": 0.08133930899202824,
+      "cost_time": 0.009392263367772102,
+      "solver_time": 0.054011145606637
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14515193179249763,
+    "timings": {
+      "feature_time": 0.08148027025163174,
+      "cost_time": 0.009450951591134071,
+      "solver_time": 0.0542187187820673
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1376730427145958,
+    "timings": {
+      "feature_time": 0.07410394959151745,
+      "cost_time": 0.009359423071146011,
+      "solver_time": 0.05420762114226818
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.14434360899031162,
+    "timings": {
+      "feature_time": 0.08091363683342934,
+      "cost_time": 0.009380973875522614,
+      "solver_time": 0.05404657684266567
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14425979368388653,
+    "timings": {
+      "feature_time": 0.08081141114234924,
+      "cost_time": 0.009394042193889618,
+      "solver_time": 0.05405209772288799
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.13752657547593117,
+    "timings": {
+      "feature_time": 0.0740632712841034,
+      "cost_time": 0.0093698650598526,
+      "solver_time": 0.05409134924411774
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1442439891397953,
+    "timings": {
+      "feature_time": 0.08096014708280563,
+      "cost_time": 0.009379703551530838,
+      "solver_time": 0.05390177480876446
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1442814078181982,
+    "timings": {
+      "feature_time": 0.08097130805253983,
+      "cost_time": 0.00940631702542305,
+      "solver_time": 0.05390154756605625
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1375435870140791,
+    "timings": {
+      "feature_time": 0.07417455315589905,
+      "cost_time": 0.009397624060511589,
+      "solver_time": 0.05396878905594349
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.14435234479606152,
+    "timings": {
+      "feature_time": 0.08072813600301743,
+      "cost_time": 0.009411485865712166,
+      "solver_time": 0.054210180416703224
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14438613317906857,
+    "timings": {
+      "feature_time": 0.08068975619971752,
+      "cost_time": 0.009463414549827576,
+      "solver_time": 0.05423160269856453
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1336655095219612,
+    "timings": {
+      "feature_time": 0.07407800480723381,
+      "cost_time": 0.00942351296544075,
+      "solver_time": 0.05016196891665459
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.14043445512652397,
+    "timings": {
+      "feature_time": 0.08115670457482338,
+      "cost_time": 0.009380904957652092,
+      "solver_time": 0.04989488422870636
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14103606343269348,
+    "timings": {
+      "feature_time": 0.08138121850788593,
+      "cost_time": 0.009510396048426628,
+      "solver_time": 0.05014228634536266
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.13396825641393661,
+    "timings": {
+      "feature_time": 0.07452917285263538,
+      "cost_time": 0.009393204003572464,
+      "solver_time": 0.05004359036684036
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.14053797721862793,
+    "timings": {
+      "feature_time": 0.08109179325401783,
+      "cost_time": 0.009401986375451088,
+      "solver_time": 0.05004162900149822
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14033792540431023,
+    "timings": {
+      "feature_time": 0.08093908056616783,
+      "cost_time": 0.009395677596330643,
+      "solver_time": 0.05000143684446812
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1335239503532648,
+    "timings": {
+      "feature_time": 0.0740655679255724,
+      "cost_time": 0.009392224252223969,
+      "solver_time": 0.05006350018084049
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1408183928579092,
+    "timings": {
+      "feature_time": 0.08153647929430008,
+      "cost_time": 0.009372113272547722,
+      "solver_time": 0.04990776814520359
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.14375266805291176,
+    "timings": {
+      "feature_time": 0.08120973780751228,
+      "cost_time": 0.00942593440413475,
+      "solver_time": 0.05311490409076214
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.13402511179447174,
+    "timings": {
+      "feature_time": 0.07450496219098568,
+      "cost_time": 0.009364914149045944,
+      "solver_time": 0.05015287920832634
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.13998817279934883,
+    "timings": {
+      "feature_time": 0.08060566522181034,
+      "cost_time": 0.009433405473828316,
+      "solver_time": 0.04994682036340237
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "er",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1399596408009529,
+    "timings": {
+      "feature_time": 0.08072540536522865,
+      "cost_time": 0.009446507319808006,
+      "solver_time": 0.04978526756167412
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.2037851195782423,
+    "timings": {
+      "feature_time": 0.07389847934246063,
+      "cost_time": 0.009421167895197868,
+      "solver_time": 0.12046275474131107
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.21372411400079727,
+    "timings": {
+      "feature_time": 0.08047116734087467,
+      "cost_time": 0.009519457817077637,
+      "solver_time": 0.12373187206685543
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.21145619079470634,
+    "timings": {
+      "feature_time": 0.0806642696261406,
+      "cost_time": 0.009522097185254097,
+      "solver_time": 0.12126756273210049
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.20347190275788307,
+    "timings": {
+      "feature_time": 0.07362599112093449,
+      "cost_time": 0.009400755167007446,
+      "solver_time": 0.1204422079026699
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.21096828766167164,
+    "timings": {
+      "feature_time": 0.08044550567865372,
+      "cost_time": 0.009497366845607758,
+      "solver_time": 0.12102278508245945
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.21076098643243313,
+    "timings": {
+      "feature_time": 0.08029881492257118,
+      "cost_time": 0.009424816817045212,
+      "solver_time": 0.1210354957729578
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.20344512909650803,
+    "timings": {
+      "feature_time": 0.07348237000405788,
+      "cost_time": 0.009394127875566483,
+      "solver_time": 0.12056653387844563
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.21050951071083546,
+    "timings": {
+      "feature_time": 0.08059387095272541,
+      "cost_time": 0.009493548423051834,
+      "solver_time": 0.12042023055255413
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.21233594231307507,
+    "timings": {
+      "feature_time": 0.0805471632629633,
+      "cost_time": 0.01115194521844387,
+      "solver_time": 0.12063459120690823
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.2040364146232605,
+    "timings": {
+      "feature_time": 0.07385542802512646,
+      "cost_time": 0.009374387562274933,
+      "solver_time": 0.12080380320549011
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.21027602441608906,
+    "timings": {
+      "feature_time": 0.0803773533552885,
+      "cost_time": 0.009423648938536644,
+      "solver_time": 0.12047275714576244
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.21064186096191406,
+    "timings": {
+      "feature_time": 0.08026310987770557,
+      "cost_time": 0.009425519034266472,
+      "solver_time": 0.1209508515894413
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.16007992066442966,
+    "timings": {
+      "feature_time": 0.07373740896582603,
+      "cost_time": 0.00946289673447609,
+      "solver_time": 0.07687660679221153
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.16692762821912766,
+    "timings": {
+      "feature_time": 0.08077314868569374,
+      "cost_time": 0.009353937581181526,
+      "solver_time": 0.07679850235581398
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.16760272718966007,
+    "timings": {
+      "feature_time": 0.08065351843833923,
+      "cost_time": 0.01039939932525158,
+      "solver_time": 0.07654743269085884
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.15980561263859272,
+    "timings": {
+      "feature_time": 0.07366862893104553,
+      "cost_time": 0.009453780949115753,
+      "solver_time": 0.07668064534664154
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1668226607143879,
+    "timings": {
+      "feature_time": 0.08077188953757286,
+      "cost_time": 0.00942537747323513,
+      "solver_time": 0.07662328705191612
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.16665782779455185,
+    "timings": {
+      "feature_time": 0.08032275550067425,
+      "cost_time": 0.009513327851891518,
+      "solver_time": 0.07681961543858051
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1598486267030239,
+    "timings": {
+      "feature_time": 0.07381644286215305,
+      "cost_time": 0.009397687390446663,
+      "solver_time": 0.07663220539689064
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.16705989092588425,
+    "timings": {
+      "feature_time": 0.0811272393912077,
+      "cost_time": 0.009427208453416824,
+      "solver_time": 0.07650381699204445
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.16713258996605873,
+    "timings": {
+      "feature_time": 0.08048119023442268,
+      "cost_time": 0.010126866400241852,
+      "solver_time": 0.0765218622982502
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.15944795683026314,
+    "timings": {
+      "feature_time": 0.07360759563744068,
+      "cost_time": 0.009404167532920837,
+      "solver_time": 0.0764330755919218
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.16630303673446178,
+    "timings": {
+      "feature_time": 0.08049682155251503,
+      "cost_time": 0.009359069168567657,
+      "solver_time": 0.07644438929855824
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.16676096804440022,
+    "timings": {
+      "feature_time": 0.08058309182524681,
+      "cost_time": 0.009402787312865257,
+      "solver_time": 0.07677285745739937
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.16669021360576153,
+    "timings": {
+      "feature_time": 0.07400926016271114,
+      "cost_time": 0.009415078908205032,
+      "solver_time": 0.08326367661356926
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17364680394530296,
+    "timings": {
+      "feature_time": 0.0810282714664936,
+      "cost_time": 0.009402148425579071,
+      "solver_time": 0.0832136683166027
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1749216578900814,
+    "timings": {
+      "feature_time": 0.08048570342361927,
+      "cost_time": 0.009395578876137733,
+      "solver_time": 0.0850379653275013
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.16649139858782291,
+    "timings": {
+      "feature_time": 0.07409378327429295,
+      "cost_time": 0.009429976344108582,
+      "solver_time": 0.08296474628150463
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1732422634959221,
+    "timings": {
+      "feature_time": 0.08082721196115017,
+      "cost_time": 0.009367555379867554,
+      "solver_time": 0.08304509706795216
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17489167489111423,
+    "timings": {
+      "feature_time": 0.08035199530422688,
+      "cost_time": 0.009441668167710304,
+      "solver_time": 0.08509641885757446
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1658522430807352,
+    "timings": {
+      "feature_time": 0.0731580164283514,
+      "cost_time": 0.009396897628903389,
+      "solver_time": 0.0832950584590435
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.17313320748507977,
+    "timings": {
+      "feature_time": 0.08041727915406227,
+      "cost_time": 0.009382247924804688,
+      "solver_time": 0.08333116210997105
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17440098337829113,
+    "timings": {
+      "feature_time": 0.08035546913743019,
+      "cost_time": 0.009422190487384796,
+      "solver_time": 0.08462176658213139
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1664693932980299,
+    "timings": {
+      "feature_time": 0.07381885126233101,
+      "cost_time": 0.009389197453856468,
+      "solver_time": 0.0832592025399208
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.1732675451785326,
+    "timings": {
+      "feature_time": 0.08078950457274914,
+      "cost_time": 0.00936398096382618,
+      "solver_time": 0.08311223052442074
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.17496874183416367,
+    "timings": {
+      "feature_time": 0.08034927770495415,
+      "cost_time": 0.009526830166578293,
+      "solver_time": 0.08508948422968388
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.1852917466312647,
+    "timings": {
+      "feature_time": 0.07368943467736244,
+      "cost_time": 0.009422296658158302,
+      "solver_time": 0.10217686556279659
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.192495571449399,
+    "timings": {
+      "feature_time": 0.08072516694664955,
+      "cost_time": 0.009418848901987076,
+      "solver_time": 0.10234941728413105
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1921284683048725,
+    "timings": {
+      "feature_time": 0.08050363138318062,
+      "cost_time": 0.009396711364388466,
+      "solver_time": 0.10222600400447845
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.18536090478301048,
+    "timings": {
+      "feature_time": 0.07346226461231709,
+      "cost_time": 0.00940953940153122,
+      "solver_time": 0.1024862490594387
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.19189382903277874,
+    "timings": {
+      "feature_time": 0.08038361556828022,
+      "cost_time": 0.009380817413330078,
+      "solver_time": 0.10212664492428303
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.19228098541498184,
+    "timings": {
+      "feature_time": 0.08034953474998474,
+      "cost_time": 0.009419547393918037,
+      "solver_time": 0.10250948369503021
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.18501180596649647,
+    "timings": {
+      "feature_time": 0.07333714328706264,
+      "cost_time": 0.009372198954224586,
+      "solver_time": 0.10229992307722569
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.19237581081688404,
+    "timings": {
+      "feature_time": 0.08038680627942085,
+      "cost_time": 0.009401630610227585,
+      "solver_time": 0.10258516296744347
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.19162880443036556,
+    "timings": {
+      "feature_time": 0.08005930483341217,
+      "cost_time": 0.00940684974193573,
+      "solver_time": 0.10216042958199978
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.1853653248399496,
+    "timings": {
+      "feature_time": 0.07380984164774418,
+      "cost_time": 0.009419349953532219,
+      "solver_time": 0.10213344357907772
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.19175647757947445,
+    "timings": {
+      "feature_time": 0.08005516417324543,
+      "cost_time": 0.009440099820494652,
+      "solver_time": 0.10225840285420418
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.19257684983313084,
+    "timings": {
+      "feature_time": 0.08054586872458458,
+      "cost_time": 0.009415607899427414,
+      "solver_time": 0.10261259973049164
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.18982833437621593,
+    "timings": {
+      "feature_time": 0.07368957437574863,
+      "cost_time": 0.009460391476750374,
+      "solver_time": 0.10667609050869942
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.19702215865254402,
+    "timings": {
+      "feature_time": 0.08089449815452099,
+      "cost_time": 0.009401459246873856,
+      "solver_time": 0.1067239698022604
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1990843527019024,
+    "timings": {
+      "feature_time": 0.08070552721619606,
+      "cost_time": 0.00945264846086502,
+      "solver_time": 0.10892402566969395
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.19059458747506142,
+    "timings": {
+      "feature_time": 0.07378506846725941,
+      "cost_time": 0.009405311197042465,
+      "solver_time": 0.10740133188664913
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.19957272335886955,
+    "timings": {
+      "feature_time": 0.08028354123234749,
+      "cost_time": 0.00940966047346592,
+      "solver_time": 0.10987728089094162
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.19667497649788857,
+    "timings": {
+      "feature_time": 0.08000195771455765,
+      "cost_time": 0.009517120197415352,
+      "solver_time": 0.10715406015515327
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.18972761183977127,
+    "timings": {
+      "feature_time": 0.07357349433004856,
+      "cost_time": 0.009465711191296577,
+      "solver_time": 0.10668572597205639
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.19645985960960388,
+    "timings": {
+      "feature_time": 0.07995183020830154,
+      "cost_time": 0.009464692324399948,
+      "solver_time": 0.10704062692821026
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.1971866898238659,
+    "timings": {
+      "feature_time": 0.07993113063275814,
+      "cost_time": 0.009515751153230667,
+      "solver_time": 0.10773743875324726
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.19031443633139133,
+    "timings": {
+      "feature_time": 0.07368890009820461,
+      "cost_time": 0.009395662695169449,
+      "solver_time": 0.10722762532532215
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.19650572910904884,
+    "timings": {
+      "feature_time": 0.08005806431174278,
+      "cost_time": 0.009392792358994484,
+      "solver_time": 0.10705173201858997
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.01,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.19649542681872845,
+    "timings": {
+      "feature_time": 0.07989487238228321,
+      "cost_time": 0.009399719536304474,
+      "solver_time": 0.10719849728047848
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.34257386066019535,
+    "timings": {
+      "feature_time": 0.07420593872666359,
+      "cost_time": 0.00943850353360176,
+      "solver_time": 0.2589266784489155
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.348068255931139,
+    "timings": {
+      "feature_time": 0.08062101155519485,
+      "cost_time": 0.009403901174664497,
+      "solver_time": 0.2580411322414875
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.35363337211310863,
+    "timings": {
+      "feature_time": 0.08051803149282932,
+      "cost_time": 0.00940101221203804,
+      "solver_time": 0.26371200010180473
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.3419866915792227,
+    "timings": {
+      "feature_time": 0.07447551563382149,
+      "cost_time": 0.009425651282072067,
+      "solver_time": 0.2580829728394747
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3489970229566097,
+    "timings": {
+      "feature_time": 0.08055702596902847,
+      "cost_time": 0.009433260187506676,
+      "solver_time": 0.2590038347989321
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3477769698947668,
+    "timings": {
+      "feature_time": 0.08004303090274334,
+      "cost_time": 0.009462831541895866,
+      "solver_time": 0.25826917961239815
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.3424430824816227,
+    "timings": {
+      "feature_time": 0.07373241893947124,
+      "cost_time": 0.009523594751954079,
+      "solver_time": 0.2591847386211157
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.34836768358945847,
+    "timings": {
+      "feature_time": 0.0802540872246027,
+      "cost_time": 0.00942671112716198,
+      "solver_time": 0.25868381187319756
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.36883406713604927,
+    "timings": {
+      "feature_time": 0.080193055793643,
+      "cost_time": 0.0094069205224514,
+      "solver_time": 0.27923152036964893
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.34114595502614975,
+    "timings": {
+      "feature_time": 0.0739908367395401,
+      "cost_time": 0.00936405174434185,
+      "solver_time": 0.2577877566218376
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3482855074107647,
+    "timings": {
+      "feature_time": 0.08032242208719254,
+      "cost_time": 0.009400242939591408,
+      "solver_time": 0.25856064446270466
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 55,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.34881059639155865,
+    "timings": {
+      "feature_time": 0.0804633442312479,
+      "cost_time": 0.009434530511498451,
+      "solver_time": 0.2589102815836668
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.34396519139409065,
+    "timings": {
+      "feature_time": 0.07363695465028286,
+      "cost_time": 0.009395133703947067,
+      "solver_time": 0.26093065179884434
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3494057971984148,
+    "timings": {
+      "feature_time": 0.08056999742984772,
+      "cost_time": 0.009441914036870003,
+      "solver_time": 0.259391475468874
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.35583544708788395,
+    "timings": {
+      "feature_time": 0.0807313397526741,
+      "cost_time": 0.010342614725232124,
+      "solver_time": 0.26475898176431656
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.34250850044190884,
+    "timings": {
+      "feature_time": 0.07414130307734013,
+      "cost_time": 0.00936601310968399,
+      "solver_time": 0.25899815186858177
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3496283274143934,
+    "timings": {
+      "feature_time": 0.08036065846681595,
+      "cost_time": 0.00945720449090004,
+      "solver_time": 0.25980848260223866
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.35649492032825947,
+    "timings": {
+      "feature_time": 0.08041509054601192,
+      "cost_time": 0.009407524019479752,
+      "solver_time": 0.26667047664523125
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.34202964790165424,
+    "timings": {
+      "feature_time": 0.07344532944262028,
+      "cost_time": 0.00940774381160736,
+      "solver_time": 0.259174395352602
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.34877369925379753,
+    "timings": {
+      "feature_time": 0.08012900874018669,
+      "cost_time": 0.009415432810783386,
+      "solver_time": 0.2592274658381939
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3502792492508888,
+    "timings": {
+      "feature_time": 0.08053036406636238,
+      "cost_time": 0.010293114930391312,
+      "solver_time": 0.2594530303031206
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.3422367237508297,
+    "timings": {
+      "feature_time": 0.07372365705668926,
+      "cost_time": 0.009527472779154778,
+      "solver_time": 0.25898308493196964
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.34977597557008266,
+    "timings": {
+      "feature_time": 0.0803438052535057,
+      "cost_time": 0.009411392733454704,
+      "solver_time": 0.26001895777881145
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 56,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3491097688674927,
+    "timings": {
+      "feature_time": 0.07997528091073036,
+      "cost_time": 0.009411033242940903,
+      "solver_time": 0.259721253067255
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.38213743455708027,
+    "timings": {
+      "feature_time": 0.07385046035051346,
+      "cost_time": 0.00942220538854599,
+      "solver_time": 0.2988619189709425
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.38865999318659306,
+    "timings": {
+      "feature_time": 0.08049867115914822,
+      "cost_time": 0.009422896429896355,
+      "solver_time": 0.2987365275621414
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3891563378274441,
+    "timings": {
+      "feature_time": 0.08043869026005268,
+      "cost_time": 0.010187745094299316,
+      "solver_time": 0.2985275350511074
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.3810974434018135,
+    "timings": {
+      "feature_time": 0.07383645139634609,
+      "cost_time": 0.009530097246170044,
+      "solver_time": 0.2977287955582142
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.38886762224137783,
+    "timings": {
+      "feature_time": 0.08030229061841965,
+      "cost_time": 0.00941571593284607,
+      "solver_time": 0.29914688877761364
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3891050163656473,
+    "timings": {
+      "feature_time": 0.08050406351685524,
+      "cost_time": 0.009390544146299362,
+      "solver_time": 0.29920744709670544
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.3812268264591694,
+    "timings": {
+      "feature_time": 0.07372981682419777,
+      "cost_time": 0.009420465677976608,
+      "solver_time": 0.29807430505752563
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3873544204980135,
+    "timings": {
+      "feature_time": 0.0802385937422514,
+      "cost_time": 0.009413814172148705,
+      "solver_time": 0.2976998407393694
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.39479735121130943,
+    "timings": {
+      "feature_time": 0.08065399713814259,
+      "cost_time": 0.010191814973950386,
+      "solver_time": 0.30394913628697395
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.3823115024715662,
+    "timings": {
+      "feature_time": 0.07418150268495083,
+      "cost_time": 0.00938437506556511,
+      "solver_time": 0.2987431734800339
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.38827184587717056,
+    "timings": {
+      "feature_time": 0.0805362518876791,
+      "cost_time": 0.009365474805235863,
+      "solver_time": 0.29836738109588623
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 57,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3946193140000105,
+    "timings": {
+      "feature_time": 0.08028877712786198,
+      "cost_time": 0.00942731648683548,
+      "solver_time": 0.304900910705328
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.37726960331201553,
+    "timings": {
+      "feature_time": 0.07357313483953476,
+      "cost_time": 0.009489817544817924,
+      "solver_time": 0.29420421086251736
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3834847528487444,
+    "timings": {
+      "feature_time": 0.08049682527780533,
+      "cost_time": 0.009419865906238556,
+      "solver_time": 0.2935656849294901
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.38499454222619534,
+    "timings": {
+      "feature_time": 0.08028591237962246,
+      "cost_time": 0.009516488760709763,
+      "solver_time": 0.2951904237270355
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.3775006737560034,
+    "timings": {
+      "feature_time": 0.0735775027424097,
+      "cost_time": 0.009367525577545166,
+      "solver_time": 0.29455259442329407
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3835302870720625,
+    "timings": {
+      "feature_time": 0.0803910456597805,
+      "cost_time": 0.009353475645184517,
+      "solver_time": 0.29378311708569527
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.39007837139070034,
+    "timings": {
+      "feature_time": 0.08021452464163303,
+      "cost_time": 0.009421516209840775,
+      "solver_time": 0.3004401884973049
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.3768225908279419,
+    "timings": {
+      "feature_time": 0.07399887777864933,
+      "cost_time": 0.009632807224988937,
+      "solver_time": 0.29318789206445217
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.38390905037522316,
+    "timings": {
+      "feature_time": 0.08031165972352028,
+      "cost_time": 0.009507248178124428,
+      "solver_time": 0.29408735409379005
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3840805124491453,
+    "timings": {
+      "feature_time": 0.08042412996292114,
+      "cost_time": 0.009454827755689621,
+      "solver_time": 0.2941992748528719
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.3783568572252989,
+    "timings": {
+      "feature_time": 0.07427369616925716,
+      "cost_time": 0.00938744843006134,
+      "solver_time": 0.2946926634758711
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3836044408380985,
+    "timings": {
+      "feature_time": 0.08006645552814007,
+      "cost_time": 0.009402519091963768,
+      "solver_time": 0.2941328063607216
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 58,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3900461010634899,
+    "timings": {
+      "feature_time": 0.08019530028104782,
+      "cost_time": 0.009404515847563744,
+      "solver_time": 0.30044417083263397
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.34222214855253696,
+    "timings": {
+      "feature_time": 0.0738375335931778,
+      "cost_time": 0.009346965700387955,
+      "solver_time": 0.2590350452810526
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.348863011226058,
+    "timings": {
+      "feature_time": 0.0805458277463913,
+      "cost_time": 0.009385555982589722,
+      "solver_time": 0.2589289974421263
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3486813884228468,
+    "timings": {
+      "feature_time": 0.08050670474767685,
+      "cost_time": 0.009435627609491348,
+      "solver_time": 0.2587366960942745
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.34126959554851055,
+    "timings": {
+      "feature_time": 0.07384202256798744,
+      "cost_time": 0.00939720869064331,
+      "solver_time": 0.25802810303866863
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.34801699221134186,
+    "timings": {
+      "feature_time": 0.08041189797222614,
+      "cost_time": 0.00942295789718628,
+      "solver_time": 0.2581796459853649
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.001,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.3488464020192623,
+    "timings": {
+      "feature_time": 0.08043599873781204,
+      "cost_time": 0.009432878345251083,
+      "solver_time": 0.25897555612027645
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "full_scipy",
+    "initialization_time": 0.3398523386567831,
+    "timings": {
+      "feature_time": 0.0728419441729784,
+      "cost_time": 0.009436437860131264,
+      "solver_time": 0.25757179595530033
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "selective_scipy",
+    "initialization_time": 0.3480940852314234,
+    "timings": {
+      "feature_time": 0.08041769079864025,
+      "cost_time": 0.009368456900119781,
+      "solver_time": 0.25830486603081226
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "shared_latent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.35266263224184513,
+    "timings": {
+      "feature_time": 0.08026168122887611,
+      "cost_time": 0.009422928094863892,
+      "solver_time": 0.2629758957773447
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "full_scipy",
+    "initialization_time": 0.3420852478593588,
+    "timings": {
+      "feature_time": 0.07399247027933598,
+      "cost_time": 0.00939812883734703,
+      "solver_time": 0.2586915586143732
+    },
+    "cache_bytes": 0,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "selective_scipy",
+    "initialization_time": 0.34740210324525833,
+    "timings": {
+      "feature_time": 0.07995269447565079,
+      "cost_time": 0.009384479373693466,
+      "solver_time": 0.25806271098554134
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 0,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  },
+  {
+    "family": "ws",
+    "seed": 59,
+    "noise": 0.05,
+    "requested_fraction": 0.01,
+    "protocol": "independent",
+    "method": "persistent_scipy",
+    "initialization_time": 0.353424321860075,
+    "timings": {
+      "feature_time": 0.0799942072480917,
+      "cost_time": 0.009432550519704819,
+      "solver_time": 0.2639952562749386
+    },
+    "cache_bytes": 640000,
+    "normalized_feature_bytes": 432000,
+    "dense_cost_bytes": 8000000,
+    "initial_mapping_agreement": 1.0
+  }
+]

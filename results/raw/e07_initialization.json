@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 35,
+    "noise": 0.01,
+    "initial_cost_time": 0.08694385550916195,
+    "cache_time": 0.0807519443333149,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.391122691333294
+  },
+  {
+    "seed": 36,
+    "noise": 0.01,
+    "initial_cost_time": 0.08458583615720272,
+    "cache_time": 0.08112175017595291,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.2872847206890583
+  },
+  {
+    "seed": 37,
+    "noise": 0.01,
+    "initial_cost_time": 0.08402757719159126,
+    "cache_time": 0.08078745193779469,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.7157218474894762
+  },
+  {
+    "seed": 38,
+    "noise": 0.01,
+    "initial_cost_time": 0.08412482775747776,
+    "cache_time": 0.08070069178938866,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.4151117745786905
+  },
+  {
+    "seed": 39,
+    "noise": 0.01,
+    "initial_cost_time": 0.08400212414562702,
+    "cache_time": 0.0808920543640852,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 1.4111806396394968
+  },
+  {
+    "seed": 35,
+    "noise": 0.05,
+    "initial_cost_time": 0.08447344042360783,
+    "cache_time": 0.0806896798312664,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 3.364384490996599
+  },
+  {
+    "seed": 36,
+    "noise": 0.05,
+    "initial_cost_time": 0.08445669710636139,
+    "cache_time": 0.08157243207097054,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 2.981164140626788
+  },
+  {
+    "seed": 37,
+    "noise": 0.05,
+    "initial_cost_time": 0.08402332477271557,
+    "cache_time": 0.08085755817592144,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 2.9170408751815557
+  },
+  {
+    "seed": 38,
+    "noise": 0.05,
+    "initial_cost_time": 0.08442285656929016,
+    "cache_time": 0.08127586543560028,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 2.939889632165432
+  },
+  {
+    "seed": 39,
+    "noise": 0.05,
+    "initial_cost_time": 0.08428407646715641,
+    "cache_time": 0.08070220239460468,
+    "cache_bytes": 640000,
+    "dense_cost_bytes": 8000000,
+    "initial_solver_time": 3.193962750956416
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "family": "ba",
+    "noise": 0.01,
+    "seed": 55,
+    "generation_seeds": [
+      1586346648,
+      3101468888,
+      593386198,
+      3471244268
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 1,
+        "max_degree": 87,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.031272782502459594
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 2,
+        "max_degree": 86,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.03077633930482007
+      }
+    ],
+    "full_quality": {
+      "nc": 0.979,
+      "ec": 0.9749247743229689,
+      "s3": 0.9510763209393346
+    },
+    "random_quality": {
+      "nc": 0.0,
+      "ec": 0.007021063189568706,
+      "s3": 0.0035228988424760945
+    },
+    "initial_objective": 8848.465820185836,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.789
+  },
+  {
+    "family": "ba",
+    "noise": 0.01,
+    "seed": 56,
+    "generation_seeds": [
+      2148111748,
+      349989916,
+      3879539401,
+      2433805232
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 3,
+        "max_degree": 81,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.030490204854780708
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 2,
+        "max_degree": 80,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.030480300036124106
+      }
+    ],
+    "full_quality": {
+      "nc": 0.991,
+      "ec": 0.9839518555667001,
+      "s3": 0.9684106614017769
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.006018054162487462,
+      "s3": 0.0030181086519114686
+    },
+    "initial_objective": 4659.870647271403,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.845
+  },
+  {
+    "family": "ba",
+    "noise": 0.01,
+    "seed": 57,
+    "generation_seeds": [
+      3613738566,
+      3517203089,
+      1514047603,
+      3052275458
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 3,
+        "max_degree": 96,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.036708917506217686
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 2,
+        "max_degree": 96,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.03633803006768364
+      }
+    ],
+    "full_quality": {
+      "nc": 0.993,
+      "ec": 0.9876295553326646,
+      "s3": 0.97556142668428
+    },
+    "random_quality": {
+      "nc": 0.004,
+      "ec": 0.006352390504847877,
+      "s3": 0.0031863156129465033
+    },
+    "initial_objective": 4648.280687233302,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.797
+  },
+  {
+    "family": "ba",
+    "noise": 0.01,
+    "seed": 58,
+    "generation_seeds": [
+      2633808436,
+      572042748,
+      3274950962,
+      896420203
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 3,
+        "max_degree": 88,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.03131645335526694
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 2,
+        "max_degree": 88,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.030966946059885994
+      }
+    ],
+    "full_quality": {
+      "nc": 0.984,
+      "ec": 0.980608492143096,
+      "s3": 0.9619547392587734
+    },
+    "random_quality": {
+      "nc": 0.002,
+      "ec": 0.0056837178201270475,
+      "s3": 0.0028499580888516345
+    },
+    "initial_objective": 4717.658472894507,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.822
+  },
+  {
+    "family": "ba",
+    "noise": 0.01,
+    "seed": 59,
+    "generation_seeds": [
+      3421984349,
+      2025664988,
+      1662857780,
+      1175529237
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 3,
+        "max_degree": 90,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.02276295677164843
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 2,
+        "max_degree": 89,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.022942630357003765
+      }
+    ],
+    "full_quality": {
+      "nc": 0.983,
+      "ec": 0.972584419926446,
+      "s3": 0.9466319557435731
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.0056837178201270475,
+      "s3": 0.0028499580888516345
+    },
+    "initial_objective": 4663.446083265699,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.891
+  },
+  {
+    "family": "ba",
+    "noise": 0.05,
+    "seed": 55,
+    "generation_seeds": [
+      1586346648,
+      3101468888,
+      593386198,
+      3471244268
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 1,
+        "max_degree": 87,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.031272782502459594
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 1,
+        "max_degree": 83,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.02926595567859428
+      }
+    ],
+    "full_quality": {
+      "nc": 0.846,
+      "ec": 0.7866934135740555,
+      "s3": 0.6483879856709838
+    },
+    "random_quality": {
+      "nc": 0.0,
+      "ec": 0.006352390504847877,
+      "s3": 0.0031863156129465033
+    },
+    "initial_objective": 6860.250124155114,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.61
+  },
+  {
+    "family": "ba",
+    "noise": 0.05,
+    "seed": 56,
+    "generation_seeds": [
+      2148111748,
+      349989916,
+      3879539401,
+      2433805232
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 3,
+        "max_degree": 81,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.030490204854780708
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 2,
+        "max_degree": 80,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.02841676638667513
+      }
+    ],
+    "full_quality": {
+      "nc": 0.833,
+      "ec": 0.7863590772316951,
+      "s3": 0.6479338842975206
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.006018054162487462,
+      "s3": 0.0030181086519114686
+    },
+    "initial_objective": 7041.163491335675,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.548
+  },
+  {
+    "family": "ba",
+    "noise": 0.05,
+    "seed": 57,
+    "generation_seeds": [
+      3613738566,
+      3517203089,
+      1514047603,
+      3052275458
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 3,
+        "max_degree": 96,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.036708917506217686
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 1,
+        "max_degree": 95,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.03292062292984767
+      }
+    ],
+    "full_quality": {
+      "nc": 0.817,
+      "ec": 0.7776663323303243,
+      "s3": 0.6362144420131292
+    },
+    "random_quality": {
+      "nc": 0.004,
+      "ec": 0.006686726847208292,
+      "s3": 0.0033545790003354577
+    },
+    "initial_objective": 10930.53035492176,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.553
+  },
+  {
+    "family": "ba",
+    "noise": 0.05,
+    "seed": 58,
+    "generation_seeds": [
+      2633808436,
+      572042748,
+      3274950962,
+      896420203
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 3,
+        "max_degree": 88,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.03131645335526694
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 1,
+        "max_degree": 88,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.029863050292429756
+      }
+    ],
+    "full_quality": {
+      "nc": 0.853,
+      "ec": 0.8141089936476095,
+      "s3": 0.6864956301099521
+    },
+    "random_quality": {
+      "nc": 0.002,
+      "ec": 0.0056837178201270475,
+      "s3": 0.0028499580888516345
+    },
+    "initial_objective": 10857.161893285276,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.579
+  },
+  {
+    "family": "ba",
+    "noise": 0.05,
+    "seed": 59,
+    "generation_seeds": [
+      3421984349,
+      2025664988,
+      1662857780,
+      1175529237
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 3,
+        "max_degree": 90,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.02276295677164843
+      },
+      {
+        "vertices": 1000,
+        "edges": 2991,
+        "mean_degree": 5.982,
+        "min_degree": 1,
+        "max_degree": 87,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.021919358340739506
+      }
+    ],
+    "full_quality": {
+      "nc": 0.845,
+      "ec": 0.7923771313941825,
+      "s3": 0.6561461794019934
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.005349381477766633,
+      "s3": 0.0026818638954073082
+    },
+    "initial_objective": 10789.333349312805,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.608
+  },
+  {
+    "family": "er",
+    "noise": 0.01,
+    "seed": 55,
+    "generation_seeds": [
+      1586346648,
+      3101468888,
+      593386198,
+      3471244268
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3025,
+        "mean_degree": 6.05,
+        "min_degree": 1,
+        "max_degree": 15,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.006763231213231205
+      },
+      {
+        "vertices": 1000,
+        "edges": 3025,
+        "mean_degree": 6.05,
+        "min_degree": 1,
+        "max_degree": 15,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.007160878010878003
+      }
+    ],
+    "full_quality": {
+      "nc": 0.942,
+      "ec": 0.8975206611570248,
+      "s3": 0.8140929535232384
+    },
+    "random_quality": {
+      "nc": 0.0,
+      "ec": 0.006611570247933884,
+      "s3": 0.003316749585406302
+    },
+    "initial_objective": 841.516073739383,
+    "feature_unique_fractions": [
+      1.0,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.917
+  },
+  {
+    "family": "er",
+    "noise": 0.01,
+    "seed": 56,
+    "generation_seeds": [
+      2148111748,
+      349989916,
+      3879539401,
+      2433805232
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3101,
+        "mean_degree": 6.202,
+        "min_degree": 1,
+        "max_degree": 15,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.005662465312465308
+      },
+      {
+        "vertices": 1000,
+        "edges": 3102,
+        "mean_degree": 6.204,
+        "min_degree": 1,
+        "max_degree": 15,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.006033294483294478
+      }
+    ],
+    "full_quality": {
+      "nc": 0.95,
+      "ec": 0.9197033215091905,
+      "s3": 0.8510892270963891
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.006127055788455337,
+      "s3": 0.003072445019404916
+    },
+    "initial_objective": 1149.2021094112229,
+    "feature_unique_fractions": [
+      0.999,
+      0.998
+    ],
+    "row_minimum_tie_fraction": 0.005,
+    "truth_row_minimum_fraction": 0.911
+  },
+  {
+    "family": "er",
+    "noise": 0.01,
+    "seed": 57,
+    "generation_seeds": [
+      3613738566,
+      3517203089,
+      1514047603,
+      3052275458
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3062,
+        "mean_degree": 6.124,
+        "min_degree": 0,
+        "max_degree": 15,
+        "isolated_vertices": 3,
+        "components": 4,
+        "mean_clustering": 0.007052874902874899
+      },
+      {
+        "vertices": 1000,
+        "edges": 3063,
+        "mean_degree": 6.126,
+        "min_degree": 0,
+        "max_degree": 15,
+        "isolated_vertices": 3,
+        "components": 4,
+        "mean_clustering": 0.006372716172716169
+      }
+    ],
+    "full_quality": {
+      "nc": 0.951,
+      "ec": 0.9255388634879164,
+      "s3": 0.8611364326952294
+    },
+    "random_quality": {
+      "nc": 0.004,
+      "ec": 0.007511430437622469,
+      "s3": 0.0037692559816453622
+    },
+    "initial_objective": 1183.8864358698704,
+    "feature_unique_fractions": [
+      0.998,
+      0.997
+    ],
+    "row_minimum_tie_fraction": 0.003,
+    "truth_row_minimum_fraction": 0.916
+  },
+  {
+    "family": "er",
+    "noise": 0.01,
+    "seed": 58,
+    "generation_seeds": [
+      2633808436,
+      572042748,
+      3274950962,
+      896420203
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2919,
+        "mean_degree": 5.838,
+        "min_degree": 0,
+        "max_degree": 14,
+        "isolated_vertices": 1,
+        "components": 2,
+        "mean_clustering": 0.005320085470085468
+      },
+      {
+        "vertices": 1000,
+        "edges": 2920,
+        "mean_degree": 5.84,
+        "min_degree": 0,
+        "max_degree": 14,
+        "isolated_vertices": 1,
+        "components": 2,
+        "mean_clustering": 0.004996225996225995
+      }
+    ],
+    "full_quality": {
+      "nc": 0.954,
+      "ec": 0.9256594724220624,
+      "s3": 0.8613324832642653
+    },
+    "random_quality": {
+      "nc": 0.002,
+      "ec": 0.005823912298732443,
+      "s3": 0.0029199587770525593
+    },
+    "initial_objective": 918.0577949523574,
+    "feature_unique_fractions": [
+      0.998,
+      0.997
+    ],
+    "row_minimum_tie_fraction": 0.006,
+    "truth_row_minimum_fraction": 0.922
+  },
+  {
+    "family": "er",
+    "noise": 0.01,
+    "seed": 59,
+    "generation_seeds": [
+      3421984349,
+      2025664988,
+      1662857780,
+      1175529237
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2976,
+        "mean_degree": 5.952,
+        "min_degree": 0,
+        "max_degree": 16,
+        "isolated_vertices": 1,
+        "components": 2,
+        "mean_clustering": 0.006511088911088905
+      },
+      {
+        "vertices": 1000,
+        "edges": 2976,
+        "mean_degree": 5.952,
+        "min_degree": 0,
+        "max_degree": 16,
+        "isolated_vertices": 1,
+        "components": 2,
+        "mean_clustering": 0.007126595626595618
+      }
+    ],
+    "full_quality": {
+      "nc": 0.944,
+      "ec": 0.9059139784946236,
+      "s3": 0.828009828009828
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.005376344086021506,
+      "s3": 0.0026954177897574125
+    },
+    "initial_objective": 2211.893297304697,
+    "feature_unique_fractions": [
+      0.998,
+      0.998
+    ],
+    "row_minimum_tie_fraction": 0.004,
+    "truth_row_minimum_fraction": 0.876
+  },
+  {
+    "family": "er",
+    "noise": 0.05,
+    "seed": 55,
+    "generation_seeds": [
+      1586346648,
+      3101468888,
+      593386198,
+      3471244268
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3025,
+        "mean_degree": 6.05,
+        "min_degree": 1,
+        "max_degree": 15,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.006763231213231205
+      },
+      {
+        "vertices": 1000,
+        "edges": 3026,
+        "mean_degree": 6.052,
+        "min_degree": 1,
+        "max_degree": 15,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.0065042568542568475
+      }
+    ],
+    "full_quality": {
+      "nc": 0.594,
+      "ec": 0.4155371900826446,
+      "s3": 0.26220275344180227
+    },
+    "random_quality": {
+      "nc": 0.0,
+      "ec": 0.006611570247933884,
+      "s3": 0.00331619963521804
+    },
+    "initial_objective": 3663.3381224543537,
+    "feature_unique_fractions": [
+      1.0,
+      0.999
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.556
+  },
+  {
+    "family": "er",
+    "noise": 0.05,
+    "seed": 56,
+    "generation_seeds": [
+      2148111748,
+      349989916,
+      3879539401,
+      2433805232
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3101,
+        "mean_degree": 6.202,
+        "min_degree": 1,
+        "max_degree": 15,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.005662465312465308
+      },
+      {
+        "vertices": 1000,
+        "edges": 3102,
+        "mean_degree": 6.204,
+        "min_degree": 0,
+        "max_degree": 16,
+        "isolated_vertices": 1,
+        "components": 2,
+        "mean_clustering": 0.00592015484515484
+      }
+    ],
+    "full_quality": {
+      "nc": 0.608,
+      "ec": 0.44663011931634955,
+      "s3": 0.2874636778746368
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.005804579168010319,
+      "s3": 0.002910266774454325
+    },
+    "initial_objective": 3585.9545073864456,
+    "feature_unique_fractions": [
+      0.999,
+      1.0
+    ],
+    "row_minimum_tie_fraction": 0.0,
+    "truth_row_minimum_fraction": 0.59
+  },
+  {
+    "family": "er",
+    "noise": 0.05,
+    "seed": 57,
+    "generation_seeds": [
+      3613738566,
+      3517203089,
+      1514047603,
+      3052275458
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3062,
+        "mean_degree": 6.124,
+        "min_degree": 0,
+        "max_degree": 15,
+        "isolated_vertices": 3,
+        "components": 4,
+        "mean_clustering": 0.007052874902874899
+      },
+      {
+        "vertices": 1000,
+        "edges": 3063,
+        "mean_degree": 6.126,
+        "min_degree": 0,
+        "max_degree": 14,
+        "isolated_vertices": 3,
+        "components": 4,
+        "mean_clustering": 0.0067546675546675495
+      }
+    ],
+    "full_quality": {
+      "nc": 0.524,
+      "ec": 0.34977139124755063,
+      "s3": 0.21191135734072022
+    },
+    "random_quality": {
+      "nc": 0.004,
+      "ec": 0.007838014369693011,
+      "s3": 0.003933781347320112
+    },
+    "initial_objective": 7740.903662707356,
+    "feature_unique_fractions": [
+      0.998,
+      0.998
+    ],
+    "row_minimum_tie_fraction": 0.003,
+    "truth_row_minimum_fraction": 0.506
+  },
+  {
+    "family": "er",
+    "noise": 0.05,
+    "seed": 58,
+    "generation_seeds": [
+      2633808436,
+      572042748,
+      3274950962,
+      896420203
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2919,
+        "mean_degree": 5.838,
+        "min_degree": 0,
+        "max_degree": 14,
+        "isolated_vertices": 1,
+        "components": 2,
+        "mean_clustering": 0.005320085470085468
+      },
+      {
+        "vertices": 1000,
+        "edges": 2919,
+        "mean_degree": 5.838,
+        "min_degree": 0,
+        "max_degree": 14,
+        "isolated_vertices": 3,
+        "components": 4,
+        "mean_clustering": 0.005228016428016425
+      }
+    ],
+    "full_quality": {
+      "nc": 0.554,
+      "ec": 0.37821171634121276,
+      "s3": 0.2332065906210393
+    },
+    "random_quality": {
+      "nc": 0.002,
+      "ec": 0.005823912298732443,
+      "s3": 0.0029204604019927847
+    },
+    "initial_objective": 3474.6598524400574,
+    "feature_unique_fractions": [
+      0.998,
+      0.997
+    ],
+    "row_minimum_tie_fraction": 0.004,
+    "truth_row_minimum_fraction": 0.531
+  },
+  {
+    "family": "er",
+    "noise": 0.05,
+    "seed": 59,
+    "generation_seeds": [
+      3421984349,
+      2025664988,
+      1662857780,
+      1175529237
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 2976,
+        "mean_degree": 5.952,
+        "min_degree": 0,
+        "max_degree": 16,
+        "isolated_vertices": 1,
+        "components": 2,
+        "mean_clustering": 0.006511088911088905
+      },
+      {
+        "vertices": 1000,
+        "edges": 2977,
+        "mean_degree": 5.954,
+        "min_degree": 0,
+        "max_degree": 16,
+        "isolated_vertices": 2,
+        "components": 3,
+        "mean_clustering": 0.00643725718725718
+      }
+    ],
+    "full_quality": {
+      "nc": 0.55,
+      "ec": 0.36088709677419356,
+      "s3": 0.22012707522033204
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.004704301075268817,
+      "s3": 0.00235729920862098
+    },
+    "initial_objective": 4715.2030316312,
+    "feature_unique_fractions": [
+      0.998,
+      0.998
+    ],
+    "row_minimum_tie_fraction": 0.002,
+    "truth_row_minimum_fraction": 0.507
+  },
+  {
+    "family": "ws",
+    "noise": 0.01,
+    "seed": 55,
+    "generation_seeds": [
+      1586346648,
+      3101468888,
+      593386198,
+      3471244268
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 4,
+        "max_degree": 10,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.43769682539682725
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 4,
+        "max_degree": 10,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.43210793650793805
+      }
+    ],
+    "full_quality": {
+      "nc": 0.372,
+      "ec": 0.22033333333333333,
+      "s3": 0.12380595617156771
+    },
+    "random_quality": {
+      "nc": 0.0,
+      "ec": 0.006666666666666667,
+      "s3": 0.0033444816053511705
+    },
+    "initial_objective": 1521.5212240886656,
+    "feature_unique_fractions": [
+      0.709,
+      0.776
+    ],
+    "row_minimum_tie_fraction": 0.382,
+    "truth_row_minimum_fraction": 0.601
+  },
+  {
+    "family": "ws",
+    "noise": 0.01,
+    "seed": 56,
+    "generation_seeds": [
+      2148111748,
+      349989916,
+      3879539401,
+      2433805232
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.4271817460317464
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.42230952380952425
+      }
+    ],
+    "full_quality": {
+      "nc": 0.329,
+      "ec": 0.196,
+      "s3": 0.10864745011086474
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.007333333333333333,
+      "s3": 0.0036801605888256944
+    },
+    "initial_objective": 839.0270210986698,
+    "feature_unique_fractions": [
+      0.661,
+      0.704
+    ],
+    "row_minimum_tie_fraction": 0.461,
+    "truth_row_minimum_fraction": 0.585
+  },
+  {
+    "family": "ws",
+    "noise": 0.01,
+    "seed": 57,
+    "generation_seeds": [
+      3613738566,
+      3517203089,
+      1514047603,
+      3052275458
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.4379976190476199
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.43125000000000036
+      }
+    ],
+    "full_quality": {
+      "nc": 0.309,
+      "ec": 0.17533333333333334,
+      "s3": 0.09609061015710632
+    },
+    "random_quality": {
+      "nc": 0.004,
+      "ec": 0.005333333333333333,
+      "s3": 0.00267379679144385
+    },
+    "initial_objective": 909.715907740662,
+    "feature_unique_fractions": [
+      0.665,
+      0.73
+    ],
+    "row_minimum_tie_fraction": 0.421,
+    "truth_row_minimum_fraction": 0.607
+  },
+  {
+    "family": "ws",
+    "noise": 0.01,
+    "seed": 58,
+    "generation_seeds": [
+      2633808436,
+      572042748,
+      3274950962,
+      896420203
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 10,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.44293333333333507
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 10,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.4384190476190488
+      }
+    ],
+    "full_quality": {
+      "nc": 0.356,
+      "ec": 0.21966666666666668,
+      "s3": 0.12338513387006178
+    },
+    "random_quality": {
+      "nc": 0.002,
+      "ec": 0.004666666666666667,
+      "s3": 0.0023387905111927833
+    },
+    "initial_objective": 1464.931339403272,
+    "feature_unique_fractions": [
+      0.642,
+      0.706
+    ],
+    "row_minimum_tie_fraction": 0.45,
+    "truth_row_minimum_fraction": 0.663
+  },
+  {
+    "family": "ws",
+    "noise": 0.01,
+    "seed": 59,
+    "generation_seeds": [
+      3421984349,
+      2025664988,
+      1662857780,
+      1175529237
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.44198968253968457
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.4360357142857163
+      }
+    ],
+    "full_quality": {
+      "nc": 0.313,
+      "ec": 0.19,
+      "s3": 0.10497237569060773
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.006333333333333333,
+      "s3": 0.003176726299949841
+    },
+    "initial_objective": 961.2827109410093,
+    "feature_unique_fractions": [
+      0.645,
+      0.715
+    ],
+    "row_minimum_tie_fraction": 0.453,
+    "truth_row_minimum_fraction": 0.652
+  },
+  {
+    "family": "ws",
+    "noise": 0.05,
+    "seed": 55,
+    "generation_seeds": [
+      1586346648,
+      3101468888,
+      593386198,
+      3471244268
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 4,
+        "max_degree": 10,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.43769682539682725
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 10,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.4108865079365092
+      }
+    ],
+    "full_quality": {
+      "nc": 0.101,
+      "ec": 0.066,
+      "s3": 0.03412616339193381
+    },
+    "random_quality": {
+      "nc": 0.0,
+      "ec": 0.006666666666666667,
+      "s3": 0.0033444816053511705
+    },
+    "initial_objective": 7382.917402102123,
+    "feature_unique_fractions": [
+      0.709,
+      0.84
+    ],
+    "row_minimum_tie_fraction": 0.239,
+    "truth_row_minimum_fraction": 0.158
+  },
+  {
+    "family": "ws",
+    "noise": 0.05,
+    "seed": 56,
+    "generation_seeds": [
+      2148111748,
+      349989916,
+      3879539401,
+      2433805232
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.4271817460317464
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 2,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.39899126984126976
+      }
+    ],
+    "full_quality": {
+      "nc": 0.057,
+      "ec": 0.04533333333333334,
+      "s3": 0.023192360163710776
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.007666666666666666,
+      "s3": 0.003848084323239083
+    },
+    "initial_objective": 7441.292595304678,
+    "feature_unique_fractions": [
+      0.661,
+      0.826
+    ],
+    "row_minimum_tie_fraction": 0.286,
+    "truth_row_minimum_fraction": 0.119
+  },
+  {
+    "family": "ws",
+    "noise": 0.05,
+    "seed": 57,
+    "generation_seeds": [
+      3613738566,
+      3517203089,
+      1514047603,
+      3052275458
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.4379976190476199
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 11,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.4085734487734485
+      }
+    ],
+    "full_quality": {
+      "nc": 0.056,
+      "ec": 0.03166666666666667,
+      "s3": 0.016088060965283656
+    },
+    "random_quality": {
+      "nc": 0.004,
+      "ec": 0.005333333333333333,
+      "s3": 0.00267379679144385
+    },
+    "initial_objective": 9211.932580780212,
+    "feature_unique_fractions": [
+      0.665,
+      0.847
+    ],
+    "row_minimum_tie_fraction": 0.357,
+    "truth_row_minimum_fraction": 0.092
+  },
+  {
+    "family": "ws",
+    "noise": 0.05,
+    "seed": 58,
+    "generation_seeds": [
+      2633808436,
+      572042748,
+      3274950962,
+      896420203
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 10,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.44293333333333507
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 10,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.41467460317460403
+      }
+    ],
+    "full_quality": {
+      "nc": 0.065,
+      "ec": 0.04733333333333333,
+      "s3": 0.02424035506998976
+    },
+    "random_quality": {
+      "nc": 0.002,
+      "ec": 0.005,
+      "s3": 0.002506265664160401
+    },
+    "initial_objective": 6051.960651653661,
+    "feature_unique_fractions": [
+      0.642,
+      0.866
+    ],
+    "row_minimum_tie_fraction": 0.296,
+    "truth_row_minimum_fraction": 0.147
+  },
+  {
+    "family": "ws",
+    "noise": 0.05,
+    "seed": 59,
+    "generation_seeds": [
+      3421984349,
+      2025664988,
+      1662857780,
+      1175529237
+    ],
+    "graph_statistics": [
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.44198968253968457
+      },
+      {
+        "vertices": 1000,
+        "edges": 3000,
+        "mean_degree": 6.0,
+        "min_degree": 3,
+        "max_degree": 9,
+        "isolated_vertices": 0,
+        "components": 1,
+        "mean_clustering": 0.41307301587301587
+      }
+    ],
+    "full_quality": {
+      "nc": 0.068,
+      "ec": 0.04633333333333333,
+      "s3": 0.023716089404538475
+    },
+    "random_quality": {
+      "nc": 0.001,
+      "ec": 0.006,
+      "s3": 0.003009027081243731
+    },
+    "initial_objective": 2982.9212731320804,
+    "feature_unique_fractions": [
+      0.645,
+      0.813
+    ],
+    "row_minimum_tie_fraction": 0.275,
+    "truth_row_minimum_fraction": 0.137
+  }
+]

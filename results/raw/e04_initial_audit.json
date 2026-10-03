@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 15,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.05778952240454499,
+    "constant_dimensions": 6
+  },
+  {
+    "seed": 16,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.037908244019333515,
+    "constant_dimensions": 4
+  },
+  {
+    "seed": 17,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.0379082440193335,
+    "constant_dimensions": 6
+  },
+  {
+    "seed": 18,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.0488902213560449,
+    "constant_dimensions": 6
+  },
+  {
+    "seed": 19,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.04375071207934924,
+    "constant_dimensions": 4
+  },
+  {
+    "seed": 20,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.06546113679990928,
+    "constant_dimensions": 4
+  },
+  {
+    "seed": 21,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.05467740838186345,
+    "constant_dimensions": 6
+  },
+  {
+    "seed": 22,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.058855972663032816,
+    "constant_dimensions": 6
+  },
+  {
+    "seed": 23,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.06174848272188375,
+    "constant_dimensions": 6
+  },
+  {
+    "seed": 24,
+    "initial_costs_equal": true,
+    "corrected_min_scale": 0.06896727367230202,
+    "constant_dimensions": 6
+  }
+]

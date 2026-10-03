@@ -1,0 +1,152 @@
+{
+  "execution_status": "completed",
+  "started_at": "2026-10-03T12:59:42.964368+00:00",
+  "config": {
+    "seeds": [
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    "sizes": [
+      5000
+    ],
+    "families": [
+      "ba",
+      "ws"
+    ],
+    "noise": 0.01,
+    "requested_fraction": 0.001,
+    "steps": 3,
+    "rounds": 3,
+    "methods": [
+      "full_scipy",
+      "persistent_scipy"
+    ],
+    "status": "preregistered_not_run",
+    "fixed_job_source": "configs/e13_scaling.json"
+  },
+  "config_hash": "d4357264a0bda97035baa166236116dad934b6662afc5991eb08ef3833418da9",
+  "frozen_config_hash": "0184dd162b49318437a5820f1c2e0fafd0f721edd1b58ef6c15ca214e835fe62",
+  "reference_hash": "912426192e166037a0ed945f880007d63eac191f04ec8776e23cc6dcc11a059d",
+  "reference_metadata_hash": "c358131c0d70e9229e094210aea4c9aa00533d77ce267351658871a485ba0408",
+  "source_hashes": {
+    "src/__init__.py": "950fcac7cefa131aa4a75ef7c3642abc5f1a1dcef0151531a3974c5588b275eb",
+    "src/candidate_pruning.py": "899cfde357e9511a684a76d7db32c59ae7a7d32dbbcdbe54938a79c58702face",
+    "src/candidates.py": "d2b0d06c7fec584f3d4b0029f3750621c0d5c0ebda5927986387ebf23dc5f8ac",
+    "src/conflict_closure.py": "77ed28d3142d1e10e32f5b1e2e309e5c78cf95c5a35e55641241f44f6b8f8fe7",
+    "src/cost_cache.py": "ff250e8bc83c848774dd74b2cdf62fe4de653312090bc55f86c3937c0adfd8ad",
+    "src/descriptor_cache.py": "26b126b5585bfb248902cc4b2b231b7f5b93d4788ca366b15c0c448afec6d174",
+    "src/descriptors.py": "f0cdf77a733efb5b32edd1be6fcf70b1779b98a153be9644dbcbf43441a3f6a0",
+    "src/dynamic_assignment.py": "ccda8ac1c82adc1a2c952c085252ce3ff06d541c5edb9427ce08fcdb038ee797",
+    "src/full_align.py": "30018fd28f08fef4b72576e02c4ff6e53e8e4d94a92e89514fff2d0a2b9dde0c",
+    "src/graph.py": "4f2b5c3e60624bbe20758ba0a95de6ba6af0c45ce9a052965d426fa406d9c8c1",
+    "src/local_assignment.py": "c21b7b096df824499ad6a66977f084e24ad482251d4710a48dc3c2d25b7f17b6",
+    "src/metrics.py": "7c92bdd1df97349299125e2f9a46b9ee4a8ff357bb9dd21d334a848a9dbbb2ca",
+    "src/normalization.py": "bb21745fcc40c3d022389f5699bff186200577d6ad491be69d5ff55e6c5d341e",
+    "src/normalized_align.py": "06291b02021468446f8b67d733ee1c0da99c51783c3f74e5375d3ff02e2db34f",
+    "src/repair_metrics.py": "98536dad8978e12dd18a00d13fd171b2dd9e1aa36184d219da8d425092424d1e",
+    "src/topology_pairs.py": "93c2bc97a5c372342530dec39369d60f94d8aba420e7df85eded4d3a835a1d50",
+    "src/update_protocols.py": "b27ce889d0c9d6c3a1a3390f8e26129f51260e6198d02943cb361a7b8b5d9896",
+    "src/updates.py": "9f52c7af6d9a6f735a27dc8acd4be202e2db81a5a12938ba8541bc2c00838f17",
+    "/home/akanksha/Bhargav/DeltaAlign/experiments/e16_timing.py": "60b18ef4a07703312e425baf5a2a99cb6a90b463748148f91c800d735a8135e8",
+    "experiments/e13_scaling.py": "9cd0a7051bba6f288563ab96652d67578016c626a08fd92e874e4843554f9a8b",
+    "experiments/e12_resources.py": "06fe3cede643c88875c989cd43292ce86c1a883a18f704fac2caa876eef0e2cd",
+    "experiments/e10_costs.py": "e6f2e61ef4413d008669a2f32c6d2f10dd1108827f3aed35d1a3a4295529effd",
+    "experiments/e06_dynamic_assignment.py": "9614aec165a53b47b9ecb5f95112af33166f1a58953ef128eef5dbd1bf66e894"
+  },
+  "preflight": [
+    {
+      "round": 1,
+      "nodes": 5000,
+      "memory": {
+        "MemTotal": 540466987008,
+        "MemAvailable": 497844912128,
+        "visible_cgroup_limits": {
+          "/sys/fs/cgroup/user.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.max": "max"
+        },
+        "visible_cgroup_usage": {
+          "/sys/fs/cgroup/user.slice/memory.current": 234313863168,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.current": 17894363136,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.current": 1195249664
+        },
+        "address_space_soft_limit": -1,
+        "effective_available_bytes": 497844912128,
+        "cgroup_membership": "0::/user.slice/user-1006.slice/session-13966.scope\n"
+      },
+      "conservative_estimate_bytes": 1068435456,
+      "permitted": true
+    },
+    {
+      "round": 2,
+      "nodes": 5000,
+      "memory": {
+        "MemTotal": 540466987008,
+        "MemAvailable": 497975291904,
+        "visible_cgroup_limits": {
+          "/sys/fs/cgroup/user.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.max": "max"
+        },
+        "visible_cgroup_usage": {
+          "/sys/fs/cgroup/user.slice/memory.current": 234319777792,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.current": 17877512192,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.current": 1178198016
+        },
+        "address_space_soft_limit": -1,
+        "effective_available_bytes": 497975291904,
+        "cgroup_membership": "0::/user.slice/user-1006.slice/session-13966.scope\n"
+      },
+      "conservative_estimate_bytes": 1068435456,
+      "permitted": true
+    },
+    {
+      "round": 3,
+      "nodes": 5000,
+      "memory": {
+        "MemTotal": 540466987008,
+        "MemAvailable": 497955090432,
+        "visible_cgroup_limits": {
+          "/sys/fs/cgroup/user.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.max": "max",
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.max": "max"
+        },
+        "visible_cgroup_usage": {
+          "/sys/fs/cgroup/user.slice/memory.current": 234315288576,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/memory.current": 17874685952,
+          "/sys/fs/cgroup/user.slice/user-1006.slice/session-13966.scope/memory.current": 1175277568
+        },
+        "address_space_soft_limit": -1,
+        "effective_available_bytes": 497955090432,
+        "cgroup_membership": "0::/user.slice/user-1006.slice/session-13966.scope\n"
+      },
+      "conservative_estimate_bytes": 1068435456,
+      "permitted": true
+    }
+  ],
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-107-generic-x86_64-with-glibc2.35",
+  "cpu_count": 512,
+  "cpu_model": "AMD EPYC 9754 128-Core Processor",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "networkx": "3.4.2",
+  "thread_environment": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "BLIS_NUM_THREADS": null,
+    "VECLIB_MAXIMUM_THREADS": null,
+    "NUMEXPR_NUM_THREADS": null
+  },
+  "rss_scope": "whole fresh E13 worker including imports, generation, setup, updates, fingerprints and quality",
+  "timing_scope": "graph-to-assignment stages excluding generation and validation; actual initialization included in totals",
+  "caveat": "only visible resource limits inspected; no fixed-job repetitions pooled as graph seeds",
+  "ended_at": "2026-10-03T13:44:55.284322+00:00",
+  "worker_runs": 60,
+  "paired_executions": 30,
+  "matching_snapshots": 120
+}

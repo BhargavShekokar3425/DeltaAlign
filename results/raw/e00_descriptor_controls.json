@@ -1,0 +1,107 @@
+[
+  {
+    "mode": "basic",
+    "seed": 0,
+    "unique_descriptors": 941,
+    "noiseless_nc": 0.945,
+    "objective": 1.232595164407831e-30
+  },
+  {
+    "mode": "basic",
+    "seed": 1,
+    "unique_descriptors": 937,
+    "noiseless_nc": 0.926,
+    "objective": 3.549874073494553e-30
+  },
+  {
+    "mode": "basic",
+    "seed": 2,
+    "unique_descriptors": 931,
+    "noiseless_nc": 0.928,
+    "objective": 7.740697632481178e-30
+  },
+  {
+    "mode": "basic",
+    "seed": 3,
+    "unique_descriptors": 921,
+    "noiseless_nc": 0.911,
+    "objective": 4.338734978715565e-30
+  },
+  {
+    "mode": "basic",
+    "seed": 4,
+    "unique_descriptors": 923,
+    "noiseless_nc": 0.919,
+    "objective": 3.4019626537656134e-30
+  },
+  {
+    "mode": "degree_hist",
+    "seed": 0,
+    "unique_descriptors": 947,
+    "noiseless_nc": 0.951,
+    "objective": 1.232595164407831e-30
+  },
+  {
+    "mode": "degree_hist",
+    "seed": 1,
+    "unique_descriptors": 940,
+    "noiseless_nc": 0.93,
+    "objective": 3.549874073494553e-30
+  },
+  {
+    "mode": "degree_hist",
+    "seed": 2,
+    "unique_descriptors": 937,
+    "noiseless_nc": 0.932,
+    "objective": 7.740697632481178e-30
+  },
+  {
+    "mode": "degree_hist",
+    "seed": 3,
+    "unique_descriptors": 926,
+    "noiseless_nc": 0.918,
+    "objective": 4.338734978715565e-30
+  },
+  {
+    "mode": "degree_hist",
+    "seed": 4,
+    "unique_descriptors": 927,
+    "noiseless_nc": 0.925,
+    "objective": 3.4019626537656134e-30
+  },
+  {
+    "mode": "two_hop_hist",
+    "seed": 0,
+    "unique_descriptors": 1000,
+    "noiseless_nc": 1.0,
+    "objective": 1.232595164407831e-30
+  },
+  {
+    "mode": "two_hop_hist",
+    "seed": 1,
+    "unique_descriptors": 1000,
+    "noiseless_nc": 1.0,
+    "objective": 3.944304526105059e-30
+  },
+  {
+    "mode": "two_hop_hist",
+    "seed": 2,
+    "unique_descriptors": 1000,
+    "noiseless_nc": 1.0,
+    "objective": 7.740697632481178e-30
+  },
+  {
+    "mode": "two_hop_hist",
+    "seed": 3,
+    "unique_descriptors": 1000,
+    "noiseless_nc": 1.0,
+    "objective": 4.338734978715565e-30
+  },
+  {
+    "mode": "two_hop_hist",
+    "seed": 4,
+    "unique_descriptors": 1000,
+    "noiseless_nc": 1.0,
+    "objective": 3.4019626537656134e-30
+  }
+]
